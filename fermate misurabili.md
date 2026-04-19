@@ -1,0 +1,3 @@
+- problemi per guasti
+- [[set-up]] di cambio di prodotto
+- riattrezzaggi necessari per cambiare gli utensili e le attrezzature delle macchine
