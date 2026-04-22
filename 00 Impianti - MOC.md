@@ -2,12 +2,12 @@
 
 ## capitoli
 
-1. [[01 Cap1 - Introduzione]] - cos'è un sistema produttivo
-2. [[02 Cap2 - Classificazione]] - classificazione di sistema produttivo
-3. [[03 Cap3 - Prestazioni]] - come si misurano
-4. [[04 Cap4 - Progettazione]] - come si progetta
-5. [[05 Cap5 - Configurazione]] - configurazione macchine e come bilanciarle
-6. [[06 Cap6 - Layout]] - dove vanno posizionati
+1. [[01 Cap1 - Introduzione ai sitemi di produzione]] - cos'è un sistema produttivo
+2. [[02 Cap2 - Classificazione dei sistemi di produzione]] - classificazione di sistema produttivo
+3. [[03 Cap3 - Prestazioni dei sistemi di produzione]] - come si misurano
+4. [[04 Cap4 - Progettazione dei sistemi di produzione]] - come si progetta
+5. [[05 Cap5 - Configurazione dei sistemi di produzione]] - configurazione macchine e come bilanciarle
+6. [[06 Cap6 - Layout e flussi di materiali]] - dove vanno posizionati
 7. [[07 Cap7 - Impianti di servizio]] - come alimentarli
 
 ## le fasi di ragionamento

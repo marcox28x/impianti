@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Impianti - MOC.md",
+                "file": "05 Cap5 - Configurazione dei sistemi di produzione.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "05 Cap5 - Configurazione dei sistemi di produzione"
+            }
+          },
+          {
+            "id": "9b5230c67982f2c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ingegnerizzazione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Impianti - MOC"
+              "title": "ingegnerizzazione"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 392.5,
+    "collapsed": true
   },
   "right": {
     "id": "f18dce9d64d99a1a",
@@ -180,22 +196,27 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4fb47f774ed07d99",
+  "active": "9b5230c67982f2c0",
   "lastOpenFiles": [
+    "05 Cap5 - Configurazione dei sistemi di produzione.md",
+    "ingegnerizzazione.md",
+    "06 Cap6 - Layout e flussi di materiali.md",
+    "07 Cap7 - Impianti di servizio.md",
+    "04 Cap4 - Progettazione dei sistemi di produzione.md",
+    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+    "02 Cap2 - Classificazione dei sistemi di produzione.md",
+    "01 Cap1 - Introduzione ai sitemi di produzione.md",
+    "VRP - Variety Reduction Program.md",
+    "Sistema di produzione.md",
+    "04 Cap4 — Progettazione.md",
+    "Contesto Competitivo.md",
+    "Processo produttivo.md",
+    "00 Impianti - MOC.md",
     "Overall Equipment Effectiveness (OEE).md",
     "OEE.md",
-    "00 Impianti - MOC.md",
-    "01 Cap1 - Introduzione.md",
-    "02 Cap2 - Classificazione.md",
-    "07 Cap7 - Impianti di servizio.md",
-    "06 Cap6 - Layout.md",
-    "05 Cap5 - Configurazione.md",
-    "04 Cap4 - Progettazione.md",
-    "03 Cap3 - Prestazioni.md",
     "9 aprile.md",
     "economia di scopo.md",
     "economia di scala.md",
@@ -206,12 +227,6 @@
     "fermate misurabili.md",
     "Impianti industriali - indice.md",
     "La misura delle prestazioni.md",
-    "Processo produttivo.md",
-    "efficienza vs efficacia.md",
-    "sistema di produzione.md",
-    "produttività globale.md",
-    "Postponement e Commonality.md",
-    "Pasted image 20260417141203.png",
-    "efficienza.md"
+    "Pasted image 20260417141203.png"
   ]
 }
