@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 Cap5 - Configurazione dei sistemi di produzione.md",
+                "file": "Sistema di produzione.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "05 Cap5 - Configurazione dei sistemi di produzione"
+              "title": "Sistema di produzione"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "ingegnerizzazione"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "right": {
     "id": "f18dce9d64d99a1a",
@@ -199,16 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b5230c67982f2c0",
+  "active": "4fb47f774ed07d99",
   "lastOpenFiles": [
+    "01 Cap1 - Introduzione ai sitemi di produzione.md",
+    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+    "02 Cap2 - Classificazione dei sistemi di produzione.md",
+    "04 Cap4 - Progettazione dei sistemi di produzione.md",
     "05 Cap5 - Configurazione dei sistemi di produzione.md",
     "ingegnerizzazione.md",
     "06 Cap6 - Layout e flussi di materiali.md",
     "07 Cap7 - Impianti di servizio.md",
-    "04 Cap4 - Progettazione dei sistemi di produzione.md",
-    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
-    "02 Cap2 - Classificazione dei sistemi di produzione.md",
-    "01 Cap1 - Introduzione ai sitemi di produzione.md",
     "VRP - Variety Reduction Program.md",
     "Sistema di produzione.md",
     "04 Cap4 — Progettazione.md",

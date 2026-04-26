@@ -11,6 +11,7 @@ Il processo produttivo è il modo in cui il sistema, attraverso scambi di energi
   <tr><td><b>Output</b></td><td>prodotti</td><td>servizi</td><td></td><td></td><td></td></tr>
 </table>
 
+
 ## Il processo produttivo come insieme gerarchico di connessioni
 
 Un'azienda non è una cosa monolitica, ma è organizzata a scatole cinesi, i livelli sono:
@@ -63,4 +64,5 @@ Ogni sistema produttivo deve essere pianificato su tre orizzonti:
 	La sequenza operativa concreta: _"Martedì mattina un operaio usa la macchina 3 per fare il pezzo X."_ È il foglio che dai in mano all'operaio.
 
 Una fabbrica vive di **routine** (il ciclo pianificazione-programmazione-scheduling che si ripete) più **progetti di miglioramento** (per stare dietro a nuove tecnologie, nuovi concorrenti, nuove leggi, gusti dei clienti che cambiano). Non puoi stare fermo: o anticipi il cambiamento o lo subisci.
+
 
