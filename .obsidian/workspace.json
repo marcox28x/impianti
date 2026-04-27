@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sistema di produzione.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Sistema di produzione"
-            }
-          },
-          {
-            "id": "9b5230c67982f2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ingegnerizzazione.md",
+                "file": "02 Cap2 - Classificazione dei sistemi di produzione.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ingegnerizzazione"
+              "title": "02 Cap2 - Classificazione dei sistemi di produzione"
             }
           }
         ]
@@ -200,15 +186,22 @@
   "active": "4fb47f774ed07d99",
   "lastOpenFiles": [
     "01 Cap1 - Introduzione ai sitemi di produzione.md",
-    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+    "Untitled.canvas",
+    "Group technology.md",
+    "job_shop_vs_group_technology_layout.svg",
+    "Pasted image 20260426183318.png",
+    "Untitled.md",
+    "ingegnerizzazione.md",
     "02 Cap2 - Classificazione dei sistemi di produzione.md",
+    "MTS - Make To Stock.md",
+    "CODP - Customer Order Decoupling Point.md",
+    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+    "Sistema di produzione.md",
     "04 Cap4 - Progettazione dei sistemi di produzione.md",
     "05 Cap5 - Configurazione dei sistemi di produzione.md",
-    "ingegnerizzazione.md",
     "06 Cap6 - Layout e flussi di materiali.md",
     "07 Cap7 - Impianti di servizio.md",
     "VRP - Variety Reduction Program.md",
-    "Sistema di produzione.md",
     "04 Cap4 — Progettazione.md",
     "Contesto Competitivo.md",
     "Processo produttivo.md",
@@ -220,11 +213,6 @@
     "economia di scala.md",
     "efficacia.md",
     "Push & Pull.md",
-    "Untitled.md",
-    "Mercato e valore.md",
-    "fermate misurabili.md",
-    "Impianti industriali - indice.md",
-    "La misura delle prestazioni.md",
     "Pasted image 20260417141203.png"
   ]
 }
