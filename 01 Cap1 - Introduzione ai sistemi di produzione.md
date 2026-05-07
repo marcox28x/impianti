@@ -17,20 +17,10 @@ Un sistema di produzione è un insieme di uomini, macchine e attrezzature che tr
 - [[Work Unit]]
 - [[Storage Zone]]
 
-### 1.3 Sottosistemi dell'azienda
-- [[Sottosistema informativo]]
-- [[Sottosistema amministrativo]]
-- [[Sottosistema organizzativo]]
-- [[Sottosistema logistico esterno]]
-- [[Sottosistema logistico interno]]
+### 1.3 Ciclo di pianificazione
+- [[Pianificazione - Programmazione - Scheduling]]
 
-### 1.4 Ciclo di pianificazione
-- [[Pianificazione]] (lungo periodo, anni)
-- [[Programmazione]] (medio periodo, mesi)
-- [[Scheduling]] (breve periodo, settimane)
-- [[Rolling planning]]
-
-### 1.5 Contesto competitivo
+### 1.4 Contesto competitivo
 - [[Leve competitive]]
 - [[Time to market]]
 - [[economia di scala|Economie di scala]]
@@ -39,6 +29,7 @@ Un sistema di produzione è un insieme di uomini, macchine e attrezzature che tr
 - [[Mass customization]]
 - [[VRP - Variety Reduction Program]]
 - [[Ciclo di vita del prodotto]]
+- [[ciclo di vita tecnologia]]
 - [[Servitization]]
 - [[Ubicazione impianto]]
 

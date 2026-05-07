@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4fb47f774ed07d99",
+            "id": "1966029fde060d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Cap2 - Classificazione dei sistemi di produzione.md",
+                "file": "ciclo di vita tecnologia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 Cap2 - Classificazione dei sistemi di produzione"
+              "title": "ciclo di vita tecnologia"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Impianti - MOC.md",
+                "file": "ciclo di vita tecnologia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00 Impianti - MOC"
+              "title": "Backlinks for ciclo di vita tecnologia"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Impianti - MOC.md",
+                "file": "ciclo di vita tecnologia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 00 Impianti - MOC"
+              "title": "Outgoing links from ciclo di vita tecnologia"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Impianti - MOC.md",
+                "file": "ciclo di vita tecnologia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 Impianti - MOC"
+              "title": "Outline of ciclo di vita tecnologia"
             }
           }
         ],
@@ -170,11 +170,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,36 +183,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fb47f774ed07d99",
+  "active": "1966029fde060d49",
   "lastOpenFiles": [
-    "01 Cap1 - Introduzione ai sitemi di produzione.md",
-    "Untitled.canvas",
-    "Group technology.md",
-    "job_shop_vs_group_technology_layout.svg",
-    "Pasted image 20260426183318.png",
+    "Ciclo di vita del prodotto.md",
+    "ciclo di vita tecnologia.md",
+    "01 Cap1 - Introduzione ai sistemi di produzione.md",
+    "Ritmi di avanzamento.md",
     "Untitled.md",
-    "ingegnerizzazione.md",
-    "02 Cap2 - Classificazione dei sistemi di produzione.md",
-    "MTS - Make To Stock.md",
-    "CODP - Customer Order Decoupling Point.md",
-    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
-    "Sistema di produzione.md",
-    "04 Cap4 - Progettazione dei sistemi di produzione.md",
-    "05 Cap5 - Configurazione dei sistemi di produzione.md",
-    "06 Cap6 - Layout e flussi di materiali.md",
-    "07 Cap7 - Impianti di servizio.md",
     "VRP - Variety Reduction Program.md",
-    "04 Cap4 — Progettazione.md",
-    "Contesto Competitivo.md",
-    "Processo produttivo.md",
-    "00 Impianti - MOC.md",
-    "Overall Equipment Effectiveness (OEE).md",
-    "OEE.md",
-    "9 aprile.md",
     "economia di scopo.md",
-    "economia di scala.md",
-    "efficacia.md",
-    "Push & Pull.md",
-    "Pasted image 20260417141203.png"
+    "Untitled.canvas",
+    "Untitled.base",
+    "Untitled 1.base",
+    "00 Impianti - MOC.md",
+    "Classificazione dei prodotti.md",
+    "02 Cap2 - Classificazione dei sistemi di produzione.md",
+    "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+    "CODP - Customer Order Decoupling Point.md",
+    "Variety Reduction Program.md",
+    "VRP.md",
+    "CODP.md",
+    "MTS.md",
+    "Pianificazione - Programmazione - Scheduling.md",
+    "Rolling planning.md",
+    "Processo produttivo.md",
+    "Enterprise - Site - Area - Work Center.md",
+    "Storage Zone.md",
+    "Work Unit.md",
+    "Sistema di produzione.md",
+    "Group technology.md",
+    "SKU - Stock Keeping Unit.md",
+    "04 Cap4 - Progettazione dei sistemi di produzione.md",
+    "Pasted image 20260428003921.png",
+    "Pasted image 20260426183318.png",
+    "Pasted image 20260417141203.png",
+    "job_shop_vs_group_technology_layout.svg"
   ]
 }

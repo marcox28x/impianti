@@ -2,7 +2,7 @@
 
 ## capitoli
 
-1. [[01 Cap1 - Introduzione ai sitemi di produzione]] - cos'è un sistema produttivo
+1. [[01 Cap1 - Introduzione ai sistemi di produzione]] - cos'è un sistema produttivo
 2. [[02 Cap2 - Classificazione dei sistemi di produzione]] - classificazione di sistema produttivo
 3. [[03 Cap3 - Prestazioni dei sistemi di produzione]] - come si misurano
 4. [[04 Cap4 - Progettazione dei sistemi di produzione]] - come si progetta
@@ -19,7 +19,7 @@
 ## Trade-off ricorrenti (pattern trasversali)
 - flessibilità ↔ efficienza → [[Job shop]] vs [[Flow shop]] 
 - investimento ↔ costo variabile → [[Analisi CVP]] 
-- previsione ↔ ordine → [[CODP]], [[MTS]] vs [[ETO]] 
+- previsione ↔ ordine → [[CODP - Customer Order Decoupling Point|CODP]], [[ | MTS ]] vs [[ETO]] 
 - standardizzazione ↔ personalizzazione → [[VRP]], [[Mass customization]] 
 - capacità teorica ↔ capacità reale → [[OEE]] 
 - centralizzato ↔ decentralizzato → [[Impianti di servizio]]

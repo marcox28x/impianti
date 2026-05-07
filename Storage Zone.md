@@ -1,0 +1,1 @@
+Le **storage zone** (o **zone di stoccaggio**) sono un caso speciale di work center: non trasformano niente, parcheggiano roba.
