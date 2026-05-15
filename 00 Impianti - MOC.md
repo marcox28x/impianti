@@ -19,8 +19,8 @@
 ## Trade-off ricorrenti (pattern trasversali)
 - flessibilità ↔ efficienza → [[Job shop]] vs [[Flow shop]] 
 - investimento ↔ costo variabile → [[Analisi CVP]] 
-- previsione ↔ ordine → [[CODP - Customer Order Decoupling Point|CODP]], [[ | MTS ]] vs [[ETO]] 
-- standardizzazione ↔ personalizzazione → [[VRP]], [[Mass customization]] 
+- previsione ↔ ordine → [[CODP - Customer Order Decoupling Point|CODP]]
+- standardizzazione ↔ personalizzazione → [[VRP - Variety Reduction Program]], [[Mass customization]] 
 - capacità teorica ↔ capacità reale → [[OEE]] 
 - centralizzato ↔ decentralizzato → [[Impianti di servizio]]
 

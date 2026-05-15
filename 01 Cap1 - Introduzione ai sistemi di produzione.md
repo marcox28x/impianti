@@ -25,7 +25,6 @@ Un sistema di produzione è un insieme di uomini, macchine e attrezzature che tr
 - [[Time to market]]
 - [[economia di scala|Economie di scala]]
 - [[economia di scopo|Economie di scopo]]
-- [[Economie di scala vs Economie di scopo]]
 - [[Mass customization]]
 - [[VRP - Variety Reduction Program]]
 - [[Ciclo di vita del prodotto]]
@@ -42,5 +41,5 @@ Un sistema di produzione è un insieme di uomini, macchine e attrezzature che tr
 
 ## Collegamenti
 - ← (capitolo di apertura)
-- → [[02 Cap2 — Classificazione]]: dopo aver definito *cos'è* un sistema, si classifica
-- Tornano in [[03 Cap3 — Prestazioni]]: la gerarchia Enterprise-Site-Area è la stessa su cui misuri l'OEE
+- → [[02 Cap2 - Classificazione dei sistemi di produzione]]: dopo aver definito *cos'è* un sistema, si classifica
+- Tornano in [[03 Cap3 - Prestazioni dei sistemi di produzione]]: la gerarchia Enterprise-Site-Area è la stessa su cui misuri l'OEE

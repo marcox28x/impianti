@@ -14,16 +14,12 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 ### 2.1 Classificazione del sistema
 #### 2.1.1 Rispetto al mercato (CODP)
 - [[CODP - Customer Order Decoupling Point]]
-- [[MTS - Make To Stock]]
-- [[ATO - Assemble To Order]]
-- [[MTO - Make To Order]]
-- [[PTO - Purchase To Order]]
-- [[ETO - Engineer To Order]]
 - [[Delivery Lead Time]]
 - [[Leve di riduzione del delivery lead time]]
 - [[Postponement]]
 
 #### 2.1.2 Rispetto ai processi tecnologici
+- [[Classificazione per processi tecnologici]]
 - [[Produzione di processo]] (irreversibile)
 - [[Produzione di parti]] (reversibile: fabbricazione + montaggio)
 - [[Reversibilità del processo]]
@@ -32,7 +28,7 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 - [[Job shop]]
 - [[Group technology]]
 - [[Flow shop]]
-- [[Confronto Job shop vs Flow shop vs GT]]
+- [[Matrice Prodotto-Processo]]
 
 #### 2.1.4 Rispetto all'organizzazione del lavoro
 - [[Ritmi di avanzamento]] (non imposto, imposto, trasferimento continuo, non vincolato)
@@ -56,5 +52,5 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 ---
 ## Collegamenti
 - ← [[01 Cap1 - Introduzione ai sistemi di produzione]]
-- → [[03 Cap3 — Prestazioni]]: ogni classe ha **target di OEE diversi** (una linea ha OEE più alto di un reparto)
-- → [[06 Cap6 — Layout e flussi]]: job/flow/cell determinano direttamente il layout fisico
+- → [[03 Cap3 - Prestazioni dei sistemi di produzione]]: ogni classe ha **target di OEE diversi** (una linea ha OEE più alto di un reparto)
+- → [[06 Cap6 - Layout e flussi di materiali]]: job/flow/cell determinano direttamente il layout fisico

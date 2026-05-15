@@ -45,7 +45,7 @@ $$ CT_{trasp} = \sum_i \sum_j q_{ij} \cdot c_{ij} \cdot d_{ij} $$
 - Conoscere pro/contro di ciascun layout (tabella mentale).
 
 ## Collegamenti
-- ← [[05 Cap5 — Configurazione]]: N_j e TCL definiscono cosa si posiziona
-- ← [[04 Cap4 — Progettazione]]: il bilancio di massa alimenta l'analisi dei flussi
-- ← [[02 Cap2 — Classificazione]]: job shop ↔ layout per processo, flow shop ↔ layout per prodotto
-- → [[07 Cap7 — Impianti di servizio]]: le utenze da servire sono quelle posizionate qui
+- ← [[05 Cap5 - Configurazione dei sistemi di produzione]]: N_j e TCL definiscono cosa si posiziona
+- ← [[04 Cap4 - Progettazione dei sistemi di produzione]]: il bilancio di massa alimenta l'analisi dei flussi
+- ← [[02 Cap2 - Classificazione dei sistemi di produzione]]: job shop ↔ layout per processo, flow shop ↔ layout per prodotto
+- → [[07 Cap7 - Impianti di servizio]]: le utenze da servire sono quelle posizionate qui

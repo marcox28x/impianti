@@ -183,12 +183,12 @@ Passare da job shop a GT non è un esercizio teorico, è un progetto vero con pa
 - [[Famiglie di prodotto]] — concetto di aggregazione codice/famiglia/tipo
 - [[Setup]] — la riduzione dei setup è il driver principale della GT
 - [[Ciclo di lavorazione]] — la GT si fonda sull'analogia di cicli
-- [[02 Cap2 — Classificazione dei sistemi di produzione]] — quadro complessivo
+- [[02 Cap2 - Classificazione dei sistemi di produzione]] — quadro complessivo
 
 ### Conseguenze (cosa ne consegue)
 
 - [[Flow shop]] — evoluzione naturale di una cella ad alti volumi
-- [[Layout a celle]] — applicazione fisica del principio GT al [[06 Cap6 — Layout e flussi|layout]]
+- [[Layout a celle]] — applicazione fisica del principio GT al [[06 Cap6 - Layout e flussi di materiali|layout]]
 - [[Saturazione macchine]] — la GT la migliora, ma richiede sovradimensionamento
 - [[WIP]] — la GT lo riduce drasticamente
 - [[Collo di bottiglia]] — in GT è **stabile** intra-cella (vantaggio chiave per programmazione)

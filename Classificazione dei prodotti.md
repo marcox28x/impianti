@@ -180,11 +180,11 @@ Conclusione: senza la classificazione del prodotto, le scelte di CODP, layout e 
 
 ### Conseguenze (cosa abilita)
 
-- [[02 Cap2 - Classificazione sistemi di produzione]] — i 4 criteri di sistema (CODP, processi, layout, lavoro) si appoggiano alla classificazione del prodotto
+- [[02 Cap2 - Classificazione dei sistemi di produzione]] — i 4 criteri di sistema (CODP, processi, layout, lavoro) si appoggiano alla classificazione del prodotto
 - [[CODP - Customer Order Decoupling Point]] — la modularità del prodotto sposta il CODP a destra (verso ATO)
 - [[Postponement]] — abilitato dalla modularità + aggregazione gestita per famiglia
-- [[Variety Reduction Program|Variety Reduction Program (VRP)]] — agisce su modularità e commonality per ridurre complessità gestionale
-- [[06 Cap6 — Layout e flussi]] — la complessità del prodotto guida la scelta job shop vs flow shop
+- [[VRP - Variety Reduction Program|Variety Reduction Program (VRP)]] — agisce su modularità e commonality per ridurre complessità gestionale
+- [[06 Cap6 - Layout e flussi di materiali]] — la complessità del prodotto guida la scelta job shop vs flow shop
 
 ---
 

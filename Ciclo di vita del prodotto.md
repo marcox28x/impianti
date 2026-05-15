@@ -136,7 +136,7 @@ Il **ciclo di vita del prodotto** descrive l'evoluzione di un prodotto da **due 
 
 5. **Esempio concreto**: fotocamere compatte → produzione di massa in maturità (~2010, 120 mln pz/anno) → disinvestimento progressivo e riconversione verso fotocamere mirrorless di alta gamma in fase di declino (post-2015, ~8 mln pz/anno nel 2020).
 
-6. **Chiusura — collegamenti**: il PLC è alla base della logica di [[Time to market]], della [[VRP|Variety Reduction Program]] e delle decisioni di posizionamento del [[CODP]] sul flusso produttivo.
+6. **Chiusura — collegamenti**: il PLC è alla base della logica di [[Time to market]], della [[VRP - Variety Reduction Program|Variety Reduction Program]] e delle decisioni di posizionamento del [[CODP - Customer Order Decoupling Point]] sul flusso produttivo.
 
 > [!example] Variante: "E se il prodotto avesse un revival?"
 > Risposta breve: il PLC non è una legge fisica, è un modello descrittivo. Casi come vinile, Polaroid, orologi meccanici mostrano che un prodotto in apparente declino può rientrare in fase di crescita su segmenti di nicchia ad alto margine. La conseguenza pratica per il sistema produttivo è importante: si passa da produzione di massa a produzione **artigianale o per piccoli lotti** (job shop, layout flessibili). La curva del PLC, in questi casi, va ripensata **per segmento di mercato**, non per il prodotto in assoluto.
@@ -167,12 +167,12 @@ Il **ciclo di vita del prodotto** descrive l'evoluzione di un prodotto da **due 
 - [[Time to market]] — leva critica nella fase di sviluppo
 
 **Conseguenze / dipendenze** (cosa deriva dal PLC):
-- [[VRP]] — strategia per gestire la varietà di prodotti in fasi diverse del ciclo
+- [[VRP - Variety Reduction Program]] — strategia per gestire la varietà di prodotti in fasi diverse del ciclo
 - [[Mass customization]] — risposta produttiva alla compressione del PLC
 - [[Servitization]] — estensione del PLC tramite servizi accessori (allunga la fase di utilizzo)
 - [[Concurrent engineering]] — riduce la fase di sviluppo, anticipa l'introduzione
 - [[Riprogettazione]] — interventi sul sistema produttivo nelle fasi di maturità/declino (conversione, riconversione, ammodernamento, ampliamento orizz./vert.)
-- [[CODP]] — la fase del PLC influenza il posizionamento del decoupling point (un prodotto giovane spesso parte ETO/MTO, in maturità diventa MTS)
+- [[CODP - Customer Order Decoupling Point]] — la fase del PLC influenza il posizionamento del decoupling point (un prodotto giovane spesso parte ETO/MTO, in maturità diventa MTS)
 - [[Postponement]] — leva progettuale per gestire varietà in fase di maturità
 
 ---

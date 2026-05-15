@@ -25,7 +25,7 @@ Due aziende possono produrre la stessa cosa, ma quella più efficiente lo fa con
 - [[efficienza vs efficacia]]
 - Si specializza in:
 	- [[produttività]] (efficienza statica)
-	- [[flessibilità]] (efficienza dinamica)
+	- [[Flessibilità]] (efficienza dinamica)
 - tutti gli indicatori [[OEE]] sono di efficienza
 
 ## Esempio

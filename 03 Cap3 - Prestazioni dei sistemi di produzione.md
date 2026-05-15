@@ -7,22 +7,18 @@ Il capitolo introduce la "cipolla dei tempi" che scende da TS (tempo solare, 876
 ## Concetti trattati
 
 ### 3.1 Concetti base di prestazione
+- [[efficienza vs efficacia]]
+- [[qualità e servizio]]
 - [[Produttività]]
-- [[Potenzialità produttiva]]
-- [[Capacità produttiva]]
-- [[Efficienza vs Efficacia]]
+- [[Potenzialità produttiva (P)]]
+- [[Capacità produttiva (CP)]]
+- [[Flessibilità]]
 
 ### 3.2 Scomposizione dei tempi
+- Tempo ciclo linea (TCL)
 - [[Quadro sinottico tempi]]
-- [[Tempo solare (TS)]]
-- [[Tempo apertura (TA)]]
-- [[Tempo di carico (TC)]]
-- [[Tempo operativo (TO)]]
-- [[Tempo operativo netto (TON)]]
-- [[Tempo operativo a valore aggiunto (TOVA)]]
-
 ### 3.3 Sei grandi perdite (TPM)
-- [[Sei grandi perdite]]
+- [[Sei grandi perdite (six big losses)]]
 - [[Perdite misurabili]] (guasti, set-up)
 - [[Perdite di velocità]] (tempi morti, rallentamenti)
 - [[Perdite da difetti]] (scarti, rilavorazioni)
@@ -54,6 +50,6 @@ Il capitolo introduce la "cipolla dei tempi" che scende da TS (tempo solare, 876
 - Saper calcolare **Pmix** e passare da Pmix+OEE+TC a **CP reale**.
 
 ## Collegamenti
-- ← [[02 Cap2 — Classificazione]]: i target di OEE dipendono dalla classe (job shop ≠ linea)
-- → [[04 Cap4 — Progettazione]]: OEE e CP sono **input al dimensionamento**
-- → [[05 Cap5 — Configurazione]]: la **saturazione** (U) è parente stretta dell'OEE
+- ← [[02 Cap2 - Classificazione dei sistemi di produzione]]: i target di OEE dipendono dalla classe (job shop ≠ linea)
+- → [[04 Cap4 - Progettazione dei sistemi di produzione]]: OEE e CP sono **input al dimensionamento**
+- → [[05 Cap5 - Configurazione dei sistemi di produzione]] la **saturazione** (U) è parente stretta dell'OEE

@@ -22,4 +22,4 @@ Un’azienda può essere efficiente ma inefficace (consegna in ritardo o prodott
 ## Collegamenti
 - Si contrappone a [[efficienza]]
 - [[efficienza vs efficacia]]
-- Si specializza in [[qualità]] e [[servizio]]
+- Si specializza in [[qualità e servizio]]

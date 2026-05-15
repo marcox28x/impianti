@@ -3,14 +3,14 @@
 
 ## Confronto sintetico
 
-| | [[Efficienza]] | [[Efficacia]] |
-|---|---|---|
-| **Tipo prestazione** | Interna | Esterna |
-| **Cosa misura** | Risorse consumate per produrre | Capacità di soddisfare il cliente |
-| **Forma metrica** | Output / Input | Eventi successo / Eventi totali |
-| **Percepita dal cliente?** | Solo indirettamente (via prezzo) | Direttamente |
-| **Esempi indicatori** | Resa, produttività, OEE | Puntualità, qualità conforme, disponibilità |
-| **Domanda chiave** | "Quanto mi costa?" | "Sto soddisfacendo il cliente?" |
+|                            | [[Efficienza]]                   | [[Efficacia]]                               |
+| -------------------------- | -------------------------------- | ------------------------------------------- |
+| **Tipo prestazione**       | Interna                          | Esterna                                     |
+| **Cosa misura**            | Risorse consumate per produrre   | Capacità di soddisfare il cliente           |
+| **Forma metrica**          | Output / Input                   | Eventi successo / Eventi totali             |
+| **Percepita dal cliente?** | Solo indirettamente (via prezzo) | Direttamente                                |
+| **Esempi indicatori**      | Resa, produttività, OEE          | Puntualità, qualità conforme, disponibilità |
+| **Domanda chiave**         | "Quanto mi costa?"               | "Sto soddisfacendo il cliente?"             |
 
 ## Le 4 combinazioni possibili
 
@@ -28,8 +28,8 @@
 Al "secondo livello di lettura" le aree prestazionali si scompongono in:
 
 - [[Produttività]] → efficienza **statica** (a configurazione costante)
-- [[Qualità]] → efficacia (*cosa* offro al cliente)
-- [[Servizio]] → efficacia (*come* lo offro)
+- [[qualità e servizio|Qualità]] → efficacia (*cosa* offro al cliente)
+- [[qualità e servizio|Servizio]] → efficacia (*come* lo offro)
 - [[Flessibilità]] → efficienza **dinamica** (mista: misura il costo *e* il tempo di reazione al cambiamento)
 
 ## Intuizione: il ristorante

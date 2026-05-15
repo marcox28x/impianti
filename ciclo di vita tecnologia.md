@@ -180,7 +180,7 @@ Il punto cruciale che differenzia un'azienda lungimirante da una reattiva: la te
 - [[Studio di fattibilità]] — primo elaborato della fase di concepimento
 - [[OEE]] — strumento di misura usato in regime per identificare deriva delle prestazioni
 - [[Servitization]] — vendere servizio invece del prodotto cambia gli orizzonti del ciclo
-- [[VRP]] — strumento di razionalizzazione tipicamente applicato in fase di regime
+- [[VRP - Variety Reduction Program]] — strumento di razionalizzazione tipicamente applicato in fase di regime
 
 ## §9 Auto-verifica
 

@@ -36,6 +36,6 @@ Gli impianti di servizio sono trasversali a tutto il sistema produttivo. Prima s
 - Distinguere **fattore di contemporaneità** (prob. di funzionamento simultaneo) da **fattore di carico** (prob. di richiesta max).
 
 ## Collegamenti
-- ← [[06 Cap6 — Layout e flussi]]: le utenze sono quelle disposte nel layout
+- ← [[06 Cap6 - Layout e flussi di materiali]]: le utenze sono quelle disposte nel layout
 - ← tutti i capitoli precedenti: il servizio è al servizio del sistema
 - (capitolo di chiusura)

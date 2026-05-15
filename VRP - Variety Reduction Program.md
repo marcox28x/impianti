@@ -1,8 +1,4 @@
 
-> Atomic note · Fonte: `Impianti_2026.pdf`, Cap 1 §1.2.1, pp. 17-20
-
----
-
 ## 1. DOMANDA
 
 Come faccio a offrire tanti prodotti diversi al cliente **senza farmi esplodere i costi** dovuti alla varietà?
@@ -66,17 +62,17 @@ Si concretizza in **4 azioni**:
    (economie scala)             (mix alto)
 ```
 
-L'analisi è **verticale**: parti dal basso della BOM e spingi verso l'alto più componenti possibili nella categoria "fissa". Quello che resta nelle semi-var e var è il minimo indispensabile per mantenere la percezione di scelta.
+L'analisi è **verticale**: parti dal basso della BOM e spingi verso l'alto più componenti possibili nella categoria "fissa". Quello che resta nelle semi-variabili e variabili è il minimo indispensabile per mantenere la percezione di scelta.
 
 ### Cosa accade se…
 
-|Scenario|Conseguenza|
-|---|---|
-|Sposti troppe parti tra le FISSE|Prodotti percepiti tutti uguali → calo vendite|
-|Lasci troppo nelle VARIABILI|Costi varietà esplodono di nuovo → VRP fallito|
-|Classifichi male una parte variabile come fissa|Stai standardizzando il differenziatore → disastro commerciale|
-|Applichi VRP gradualmente|Riduzione costi senza perdita di soddisfazione cliente ✓|
-|Applichi VRP di colpo|Cliente percepisce perdita di varietà → reazione negativa|
+| Scenario                                        | Conseguenza                                                    |
+| ----------------------------------------------- | -------------------------------------------------------------- |
+| Sposti troppe parti tra le FISSE                | Prodotti percepiti tutti uguali → calo vendite                 |
+| Lasci troppo nelle VARIABILI                    | Costi varietà esplodono di nuovo → VRP fallito                 |
+| Classifichi male una parte variabile come fissa | Stai standardizzando il differenziatore → disastro commerciale |
+| Applichi VRP gradualmente                       | Riduzione costi senza perdita di soddisfazione cliente ✓       |
+| Applichi VRP di colpo                           | Cliente percepisce perdita di varietà → reazione negativa      |
 
 ---
 
@@ -84,7 +80,7 @@ L'analisi è **verticale**: parti dal basso della BOM e spingi verso l'alto più
 
 ### Formula
 
-Non c'è una formula matematica chiusa — VRP è una **metodologia**, non un calcolo. Esistono però indicatori che puoi tracciare:
+Non c'è una formula matematica chiusa: VRP è una **metodologia**, non un calcolo. Esistono però indicatori che puoi tracciare:
 
 ```
 Indice di commonality = N_componenti_condivisi / N_componenti_totali   ↑ meglio
@@ -131,8 +127,8 @@ Time-to-market       (tempo idea → lancio)                             ↓ meg
 ### Cosa devo sapere PRIMA (prerequisiti)
 
 - [[Mass customization]] → il problema che VRP risolve: personalizzazione su linea di massa
-- [[Distinta base]] / [[BOM]] → l'oggetto che VRP ristruttura
-- [[Economie di scala vs Economie di scopo]] → le leve che VRP sfrutta (parti fisse ad alto volume = scala; gamma condivisa = scopo)
+- [[Distinta base (BOM)]] → l'oggetto che VRP ristruttura
+- [[economia di scala]] vs [[economia di scopo]] → le leve che VRP sfrutta (parti fisse ad alto volume = scala; gamma condivisa = scopo)
 - [[Ciclo di vita del prodotto]] → il contesto che rende urgente ridurre time-to-market
 - [[Standardizzazione e personalizzazione]] → il trade-off che VRP gestisce
 
@@ -174,10 +170,4 @@ Distinguere "semi-variabile" da "variabile" nei casi reali. Sulla carta (ghiera 
 - Quanto costa _implementare_ VRP? Il testo parla solo di benefici, ma la transizione organizzativa (riprogettazione di BOM esistenti, rinegoziazione con fornitori, formazione) deve essere consistente. Non c'è una stima.
 - Esistono **metriche standard** accettate per misurare il successo di un VRP (indice di commonality, ecc.) o ogni azienda si fa le sue?
 - Come si concilia VRP con mercati dove la **personalizzazione estrema è il valore** (alta moda, sartoriale, lusso)? Sembra un'eccezione strutturale.
-- Relazione con il [[CODP]]: VRP sposta il punto di disaccoppiamento più a valle? O agisce su un asse ortogonale?
-
----
-
-**📚 Fonte dal documento:**
-
-> `Impianti_2026.pdf`, Cap 1 "Introduzione ai sistemi di produzione", §1.2.1 "Standardizzazione e personalizzazione", **pp. 17-20**
+- Relazione con il [[CODP - Customer Order Decoupling Point]]: VRP sposta il punto di disaccoppiamento più a valle? O agisce su un asse ortogonale?

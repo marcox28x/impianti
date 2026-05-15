@@ -52,6 +52,6 @@ Due problemi gemelli: **saturazione** (N_j = ⌈Q/P_j⌉ macchine per tipo, con 
 - Riconoscere quando serve un **buffer** (asincronia, guasti, variabilità).
 
 ## Collegamenti
-- ← [[04 Cap4 — Progettazione]]: ciclo e tempi arrivano da qui
-- ← [[03 Cap3 — Prestazioni]]: P_j e OEE sono input al calcolo N_j
-- → [[06 Cap6 — Layout e flussi]]: N_j e la disposizione delle stazioni definiscono il layout fisico
+- ← [[04 Cap4 - Progettazione dei sistemi di produzione]]: ciclo e tempi arrivano da qui
+- ← [[03 Cap3 - Prestazioni dei sistemi di produzione]]: P_j e OEE sono input al calcolo N_j
+- → [[06 Cap6 - Layout e flussi di materiali]]: N_j e la disposizione delle stazioni definiscono il layout fisico

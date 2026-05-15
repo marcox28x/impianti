@@ -1,3 +1,12 @@
+---
+aliases:
+  - CODP
+  - MTS
+  - ATO
+  - MTO
+  - PTO
+  - ETO
+---
 
 > **In 10 secondi:** Il CODP è il punto della catena produttiva in cui l'ordine cliente "incontra" la produzione. A monte si lavora su **previsione** (push), a valle su **ordine** (pull). Spostarlo cambia la natura stessa del sistema produttivo (MTS ↔ ATO ↔ MTO ↔ PTO ↔ ETO).
 
@@ -16,20 +25,21 @@ La risposta a questa domanda determina **dove si tengono le scorte**, **quale li
 **Scenario.** _Helvetra Servers SA_, produttore svizzero di server enterprise per data center.
 
 - Catalogo: 1 famiglia di chassis, 4 motherboard, 6 tagli di RAM (16→512 GB), 5 opzioni di storage (SSD/HDD/ibrido), 3 GPU opzionali → **circa 1.080 configurazioni teoriche**.
-- Lead time interni: 
-	- progettazione board = 6 mesi (ma board già esistono)
-	- assemblaggio motherboard + alimentatore = 3 settimane
-	- configurazione finale (RAM/SSD/GPU + test/burn-in) = **5 giorni**.
+- Lead time interni:
+    - progettazione board = 6 mesi (ma board già esistono)
+    - assemblaggio motherboard + alimentatore = 3 settimane
+    - configurazione finale (RAM/SSD/GPU + test/burn-in) = **5 giorni**.
 - Il mercato (clienti tipo banche, telco, hyperscaler) concede un **delivery lead time di 10 giorni lavorativi**.
 
 **Il dilemma.**
+
 1. Se Helvetra producesse i 1.080 server finiti su previsione (MTS), avrebbe:
-
-	- decine di milioni di € immobilizzati a magazzino,
-	- rischio altissimo di obsolescenza (un nuovo processore esce ogni ~12 mesi),
-	- previsioni inaffidabili sul singolo SKU configurato.
-
+    
+    - decine di milioni di € immobilizzati a magazzino,
+    - rischio altissimo di obsolescenza (un nuovo processore esce ogni ~12 mesi),
+    - previsioni inaffidabili sul singolo SKU configurato.
 2. Se Helvetra partisse dall'ordine per _tutto_ (MTO puro), il lead time interno (3 settimane + 5 giorni ≈ 26 giorni) **eccederebbe** i 10 giorni concessi → ordini persi.
+    
 
 → **La domanda diventa: dove piazzo il CODP?** La risposta naturale è: tenere a magazzino motherboard + chassis + alimentatori già montati come **sottogruppi standard** (modalità MTS), e fare _solo_ la configurazione finale (RAM/SSD/GPU + test) **a valle dell'ordine** (modalità su ordine). Il CODP cade quindi tra "assemblaggio motherboard" e "configurazione finale". Risultato: il sistema lavora in **MTS-ATO**, e i 5 giorni di config finale stanno comodamente nei 10 concessi.
 
@@ -51,6 +61,71 @@ La risposta a questa domanda determina **dove si tengono le scorte**, **quale li
 **Regola di posizionamento.** $$\text{posizione CODP} = f\left(\frac{\text{Delivery Lead Time concesso dal mercato}}{\text{Lead time interni delle fasi a valle}}\right)$$
 
 Il CODP si posiziona nel punto più a valle compatibile con il vincolo: _somma dei lead time delle fasi pull ≤ delivery lead time_.
+
+### Le 5 posizioni canoniche del CODP
+
+Il CODP può cadere in 5 punti tipici della catena produttiva, e a ciascuno corrisponde una **modalità di risposta al mercato**. **MTS ed ETO** sono modalità _pure_ (un'unica logica gestionale dall'inizio alla fine del processo); **ATO, MTO, PTO** sono _ibride_ — per questo la nomenclatura corretta sarebbe MTS-ATO, MTS-MTO, MTS-PTO: a monte del CODP si lavora comunque su previsione.
+
+**Tabella sinottica.**
+
+|Modalità|Posizione CODP|Su previsione (push)|Su ordine (pull)|
+|---|---|---|---|
+|**MTS** Make To Stock|dopo magazzino PF|progettazione, approvvigionamento, fabbricazione, assemblaggio|solo prelievo + spedizione|
+|**ATO** Assemble To Order|a livello sottogruppi standard|progettazione, approvvigionamento, fabbricazione/assemblaggio sottogruppi|assemblaggio finale + spedizione|
+|**MTO** Make To Order|a livello materie prime|progettazione, approvvigionamento MP|fabbricazione, assemblaggio, spedizione|
+|**PTO** Purchase To Order|a livello "catalogo progetti"|solo progettazione|approvvigionamento, fabbricazione, assemblaggio, spedizione|
+|**ETO** Engineer To Order|nessun CODP (tutto pull)|nulla|tutto, dalla progettazione|
+
+#### MTS — Make To Stock
+
+Il delivery lead time concesso dal cliente è **inferiore anche all'ultima fase di realizzazione del prodotto**: l'unica via per soddisfarlo è "dal magazzino". L'azienda si rivolge a un cliente _anonimo_ (non profilato individualmente: il cliente del PoS, _point of sale_) e deve dotarsi di un robusto sistema di demand planning.
+
+- _Settore-esempio:_ **cosmetica di consumo** — un rossetto MAC sullo scaffale Sephora. Decine di shade × decine di linee = mix amplissimo, ma il cliente vuole prendere e uscire.
+- _Criticità peculiare:_ ogni errore di previsione si trasforma o in **disservizio** (cliente che va dal concorrente) o in **stock in eccesso** (obsolescenza, deperimento, oneri finanziari). Il problema esplode quando il mix è ampio: bisogna prevedere a livello di **singolo item nel singolo PoS**.
+
+#### ATO — Assemble To Order (correttamente MTS-ATO)
+
+Prodotti con elevata varietà finale ma **forte comunanza di sottogruppi standard**. Il delivery LT concesso copre solo l'assemblaggio finale. Le previsioni si fanno a livello di sottogruppo (più aggregato → più affidabile), non di prodotto finito.
+
+- _Settore-esempio:_ **automotive** — il cliente configura optional (motorizzazione, allestimento, colore, pacchetti tecnologici); motore, scocca, portiere sono comuni a tutto il modello e prodotti su previsione; l'assemblaggio finale parte solo dall'ordine configurato.
+- _Criticità peculiare:_ la distinta base deve essere **modulare** (sottogruppi standard ben identificati), altrimenti l'ATO è strutturalmente impossibile. È il caso ibrido più diffuso in assoluto.
+
+#### MTO — Make To Order (correttamente MTS-MTO)
+
+Il mercato concede un tempo di risposta **superiore alla somma di tutti i lead time interni di fabbricazione e assemblaggio** (il "cammino più lungo"). L'azienda può quindi diversificare il prodotto sin dalle prime fasi di lavorazione, partendo solo all'ordine; tiene però a magazzino le materie prime.
+
+- _Settore-esempio:_ **alta moda — griffe** (Gucci, Prada). La collezione viene progettata in anticipo, tessuti e accessori sono ordinati su previsione, ma il singolo capo non parte in produzione finché non arriva l'ordine — eventualmente con personalizzazione (taglia, lunghezze, dettagli).
+- _Criticità peculiare:_ la previsione resta su MP, dove l'aggregazione la rende affidabile, ma la **gestione della capacità produttiva** diventa il nodo: la fabbrica non lavora finché non arriva l'ordine, quindi picchi e valli di domanda si trasferiscono direttamente sulla saturazione delle risorse.
+
+#### PTO — Purchase To Order (correttamente MTS-PTO)
+
+Anche l'**approvvigionamento** parte dall'ordine. Esiste in pratica solo un "magazzino virtuale di progetti" pronti all'uso. Si applica quando le materie prime hanno un costo unitario troppo elevato (o caratteristiche troppo specifiche) per essere tenute a scorta.
+
+- _Settore-esempio:_ **alta sartoria** con tessuti rari — cashmere mongolo, sete giapponesi, lana di Vicuña a migliaia di € al metro. Il modello (il "progetto") è definito, ma il tessuto si compra solo dopo l'ordine del cliente.
+- _Criticità peculiare:_ lead time totali lunghi e fortemente dipendenti dai fornitori; il "magazzino" è immateriale (catalogo progetti, know-how, anagrafica fornitori certificati).
+
+#### ETO — Engineer To Order
+
+**Anche la progettazione** parte a valle dell'ordine. Volumi unitari o quasi, prodotti definiti da specifiche del singolo cliente, complessità elevatissima. Non esiste un vero CODP né un magazzino fisico di disaccoppiamento — al massimo un patrimonio di know-how e referenze.
+
+- _Settore-esempio:_ **cantieristica navale** (un superyacht Benetti su misura), satelliti, impianti industriali su commessa, settore aerospaziale e militare.
+- _Criticità peculiare:_ l'incertezza non è sul _cosa_ (le specifiche le porta il cliente), ma sul **quando** (non esistono riferimenti storici sul prodotto specifico) e sul **a che costo** (dipende da materiali, risorse e tempi richiesti). La preventivazione e il project management sostituiscono il demand planning come leva critica.
+
+#### Mappa visuale del posizionamento
+
+```
+                  [Eng] ── [Appr] ── [Fab] ── [Ass] ── [Spedizione]
+                    │        │        │        │
+MTS:                └────────┴────────┴────────┴──── CODP ─[stock PF]──→
+ATO (MTS-ATO):      └────────┴────────┴── CODP ─[stock sottogruppi]────→
+MTO (MTS-MTO):      └────────┴── CODP ─[stock MP]──────────────────────→
+PTO (MTS-PTO):      └── CODP ─[catalogo progetti]──────────────────────→
+ETO:                CODP (assente: tutto pull) ────────────────────────→
+
+                    ←── area push ──┼── area pull ──→
+```
+
+→ Più il CODP scivola **verso sinistra (a monte)**: aumenta il delivery LT richiesto, diminuisce il rischio previsionale, cresce la complessità di pianificazione/programmazione (ogni ordine è un mini-progetto). → Più il CODP scivola **verso destra (a valle)**: si accorcia il delivery LT al cliente, ma si carica il sistema di scorte e si moltiplicano gli SKU su cui prevedere.
 
 ---
 
@@ -146,21 +221,16 @@ La **freccia "ordine cliente"** entra nel sistema a profondità diverse: minima 
 - [[Delivery Lead Time]] — il vincolo esterno che determina dove può stare il CODP
 - [[Lead Time Interno]] — distinzione tra tempo tecnico e tempo di attraversamento
 - [[Indice di Programmazione]] — rapporto tra tempo di attraversamento e tempo tecnico
-- [[Push vs Pull]] — logiche gestionali contrapposte
-- [[Distinta Base]] — la modularità della BOM abilita o preclude certi posizionamenti del CODP
-- [[02 Cap2 — Classificazione dei sistemi di produzione]]
+- [[CODP - Customer Order Decoupling Point]] — logiche gestionali contrapposte
+- [[Distinta base (BOM)]] — la modularità della BOM abilita o preclude certi posizionamenti del CODP
+- [[02 Cap2 - Classificazione dei sistemi di produzione]]
 
 **Dipendenze (cosa ne consegue):**
 
-- [[MTS — Make To Stock]] — modalità con CODP a magazzino PF
-- [[ATO — Assemble To Order]] — modalità con CODP a livello sottogruppi
-- [[MTO — Make To Order]] — modalità con CODP a livello MP
-- [[PTO — Purchase To Order]] — modalità con CODP a livello specifiche/progetti
-- [[ETO — Engineer To Order]] — assenza di vero CODP
 - [[Postponement]] — terza leva di gestione del CODP, basata su prodotto modulare
 - [[Just-in-time]] — leva progettuale per ridurre i LT interni e abilitare CODP più a valle
 - [[Group Technology]] — tecnica che abilita la riduzione setup → leva progettuale
-- [[VRP — Variety Reduction Program]] — strategia di standardizzazione che agevola CODP a valle
+- [[VRP - Variety Reduction Program]] — strategia di standardizzazione che agevola CODP a valle
 - [[Mass Customization]] — applicazione del CODP-a-valle + postponement per personalizzazione su scala
 - [[Demand Planning]] — diventa più critico man mano che il CODP si sposta a valle
 - [[Matrice Prodotto-Processo]] — il CODP correla con le diagonali di congruenza job-shop/group-tech/flow-shop
@@ -174,5 +244,3 @@ La **freccia "ordine cliente"** entra nel sistema a profondità diverse: minima 
 3. **Profondo —** Un produttore di profumi di lusso vede ridursi il delivery LT da 30 a 10 giorni a causa di un nuovo competitor online. Discuti quale combinazione delle tre leve (gestionale, progettuale, postponement) potrebbe applicare, considerando che il prodotto è caratterizzato da fragranze diverse ma flaconi e packaging in gran parte comuni — e quale leva sfrutterebbe meglio la struttura del prodotto.
 
 ---
-
-_Nota atomica del Cap2 — Classificazione dei sistemi di produzione · Vault Impianti Industriali · MOC: [[02 Cap2 — Classificazione dei sistemi di produzione]] · Master: [[00 Impianti — MOC]]_

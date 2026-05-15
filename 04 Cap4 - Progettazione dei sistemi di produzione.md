@@ -72,9 +72,9 @@ La progettazione può essere ex novo (rara) o — molto più spesso — riproget
 - Distinguere le **3 categorie di standardizzazione** nella scelta make-or-buy: *parti unificate* (UNI/EN/ISO) vs *parti da catalogo* vs *parti a normazione aziendale*.
 
 ## Collegamenti
-- ← [[01 Cap1 — Introduzione]]: la standardizzazione (VRP) e il ciclo di vita del prodotto motivano l'ingegnerizzazione
-- ← [[03 Cap3 — Prestazioni]]: OEE e CP definiscono i target del progetto
-- → [[05 Cap5 — Configurazione]]: **DB + ciclo di lavorazione** sono gli input al bilanciamento
-- → [[06 Cap6 — Layout e flussi]]: **bilancio di massa** diventa input per l'analisi dei flussi; la similitudine tecnologica dell'ingegnerizzazione giustifica il **layout a celle / group technology**
+- ← [[01 Cap1 - Introduzione ai sistemi di produzione]]: la standardizzazione (VRP) e il ciclo di vita del prodotto motivano l'ingegnerizzazione
+- ← [[03 Cap3 - Prestazioni dei sistemi di produzione]]: OEE e CP definiscono i target del progetto
+- → [[05 Cap5 - Configurazione dei sistemi di produzione]]: **DB + ciclo di lavorazione** sono gli input al bilanciamento
+- → [[06 Cap6 - Layout e flussi di materiali]]: **bilancio di massa** diventa input per l'analisi dei flussi; la similitudine tecnologica dell'ingegnerizzazione giustifica il **layout a celle / group technology**
 
 
