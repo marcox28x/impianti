@@ -2,7 +2,6 @@
 
 > [!summary] In 10 secondi L'OEE è il **prodotto di tre coefficienti** (disponibilità · efficienza prestazioni · qualità) che ti dice quale frazione del **tempo di carico** è stata effettivamente "venduta al cliente". Misura quanto un impianto sta sfruttando il tempo in cui _dovrebbe_ produrre.
 
-**Tag**: #cap3 #prestazioni #quantitativo #esame **MOC**: [[03 Prestazioni dei sistemi di produzione]]
 
 ---
 

@@ -10,7 +10,7 @@ Dove se ne va davvero il tempo della mia macchina? E come posso classificare le 
 
 ## §2 Il problema concreto
 
-**Pharmadose S.p.A.**, casa farmaceutica di Parma, ha una linea di compressione per tablet di ibuprofene: comprimitrice rotativa a 36 punzoni, capacità di targa **200.000 tablet/h**.
+**Pharmadose S.p.A.**, casa farmaceutica di Parma, ha una linea di compressione per tablet di ibuprofene: comprimitrice rotativa a 36 Funzoni, capacità di targa **200.000 tablet/h**.
 
 A fine mese il direttore di stabilimento guarda i numeri:
 

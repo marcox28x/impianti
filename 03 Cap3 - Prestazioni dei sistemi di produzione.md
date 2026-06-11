@@ -10,6 +10,8 @@ Il capitolo introduce la "cipolla dei tempi" che scende da TS (tempo solare, 876
 - [[efficienza vs efficacia]]
 - [[qualità e servizio]]
 - [[Produttività]]
+- [[indice di flusso]]
+- [[Tempo di attraversamento]]
 - [[Potenzialità produttiva (P)]]
 - [[Capacità produttiva (CP)]]
 - [[Flessibilità]]

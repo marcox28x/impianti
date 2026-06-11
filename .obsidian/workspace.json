@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "qualità e servizio.md",
+                "file": "Disponibilità (Ap).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "qualità e servizio"
+              "title": "Disponibilità (Ap)"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+                "file": "Quadro sinottico tempi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 Cap3 - Prestazioni dei sistemi di produzione"
+              "title": "Quadro sinottico tempi"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "qualità e servizio"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tempo ciclo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,12 +102,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 392.5,
+    "collapsed": true
   },
   "right": {
     "id": "f18dce9d64d99a1a",
@@ -124,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 Cap3 - Prestazioni dei sistemi di produzione.md",
+                "file": "Disponibilità (Ap).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03 Cap3 - Prestazioni dei sistemi di produzione"
+              "title": "Backlinks for Disponibilità (Ap)"
             }
           },
           {
@@ -199,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,40 +212,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82d7bcaecb101741",
+  "active": "1966029fde060d49",
   "lastOpenFiles": [
     "Quadro sinottico tempi.md",
     "03 Cap3 - Prestazioni dei sistemi di produzione.md",
-    "05 Cap5 - Configurazione dei sistemi di produzione.md",
-    "Capacità produttiva (CP).md",
-    "produttività.md",
-    "qualità e servizio.md",
-    "Flessibilità.md",
-    "Potenzialità di mix.md",
-    "Delivery Lead Time.md",
-    "00 Impianti - MOC.md",
-    "01 Cap1 - Introduzione ai sistemi di produzione.md",
-    "Efficienza prestazioni (Ep).md",
     "02 Cap2 - Classificazione dei sistemi di produzione.md",
+    "Tempo di attraversamento.md",
+    "Disponibilità (Ap).md",
+    "OEE.md",
+    "Untitled 1.base",
+    "07 Cap7 - Impianti di servizio.md",
+    "Layout a celle.md",
+    "06 Cap6 - Layout e flussi di materiali.md",
+    "Analisi CVP.md",
+    "Distinta base (BOM).md",
+    "04 Cap4 - Progettazione dei sistemi di produzione.md",
+    "00 Impianti - MOC.md",
+    "Sei grandi perdite (six big losses).md",
+    "TEEP.md",
+    "01 Cap1 - Introduzione ai sistemi di produzione.md",
+    "Capacità produttiva (CP).md",
+    "Potenzialità di mix.md",
+    "qualità e servizio.md",
+    "produttività.md",
+    "05 Cap5 - Configurazione dei sistemi di produzione.md",
+    "Flessibilità.md",
+    "Delivery Lead Time.md",
+    "Efficienza prestazioni (Ep).md",
     "CODP - Customer Order Decoupling Point.md",
     "Servitization.md",
-    "efficienza vs efficacia.md",
-    "04 Cap4 - Progettazione dei sistemi di produzione.md",
-    "Mass customization.md",
-    "Ciclo di vita del prodotto.md",
-    "Leve competitive.md",
-    "TPM.md",
-    "La misura delle prestazioni.md",
-    "efficacia.md",
-    "VRP - Variety Reduction Program.md",
     "Untitled.base",
     "Untitled 5.base",
     "Untitled 4.base",
     "Untitled 3.base",
-    "Untitled 1.base",
     "Untitled 2.base",
-    "Economie di scala vs Economie di scopo.md",
-    "Overall Equipment Effectiveness (OEE).md",
     "Untitled 1",
     "Untitled",
     "job_shop_vs_group_technology_layout.svg",

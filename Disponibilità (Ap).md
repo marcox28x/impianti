@@ -143,20 +143,20 @@ _Step 2: calcolo i tempi di perdita del gruppo A._
 
 _Step 3: calcolo TO._ $$TO = TC - T_{guasti} - T_{setup} = 400 - 14 - 8 = 378 \text{ h}$$
 
-_Step 4: calcolo Ap._ $$A_p = \frac{TO}{TC} = \frac{378}{400} = 0{,}945 = \mathbf{94{,}5%}$$
+_Step 4: calcolo Ap._ $$A_p = \frac{TO}{TC} = \frac{378}{400} = 0{,}945 = \mathbf{94{,}5}$$
 
 **Punto b) — Disponibilità limite**
 
-$$A_{p,\text{lim}} = \frac{MTBF}{MTBF + MTTR} = \frac{130}{130 + 4} = \frac{130}{134} = 0{,}970 = \mathbf{97{,}0%}$$
+$$A_{p,\text{lim}} = \frac{MTBF}{MTBF + MTTR} = \frac{130}{130 + 4} = \frac{130}{134} = 0{,}970 = \mathbf{97{,}0}$$
 
 **Punto c) — Interpretazione**
 
-$A_p^{reale} = 94{,}5% < A_{p,\text{lim}} = 97{,}0%$. La differenza è di **2,5 punti percentuali**, che corrispondono a circa $0{,}025 \cdot 400 = 10$ h/mese di disponibilità persa **non riconducibile alla macchina**. Quasi tutta questa perdita è dovuta ai setup (8 h su 10 h di gap; le altre 2 h sono dovute al fatto che i 3 guasti hanno durata media 14/3 ≈ 4,67 h, leggermente sopra l'MTTR di targa di 4 h).
+$A_p^{reale} = 94{,}5 < A_{p,\text{lim}} = 97{,}0$. La differenza è di **2,5 punti percentuali**, che corrispondono a circa $0{,}025 \cdot 400 = 10$ h/mese di disponibilità persa **non riconducibile alla macchina**. Quasi tutta questa perdita è dovuta ai setup (8 h su 10 h di gap; le altre 2 h sono dovute al fatto che i 3 guasti hanno durata media 14/3 ≈ 4,67 h, leggermente sopra l'MTTR di targa di 4 h).
 
 Quindi:
 
 - La pressa **come macchina** è già molto vicina al suo limite teorico di affidabilità.
-- Il margine di miglioramento più grande è **organizzativo**: ridurre i setup tramite [[SMED]] o sequenziare meglio le commesse per minimizzare i cambi.
+- Il margine di miglioramento più grande è **organizzativo**: ridurre i setup tramite SMED o sequenziare meglio le commesse per minimizzare i cambi.
 - Investire in un nuovo impianto idraulico più affidabile (ridurre MTBF/aumentare MTTR) darebbe al massimo 1,5 punti percentuali (la differenza tra Ap_lim attuale e 100%, e solo se i guasti diventassero zero).
 
 → Decisione: **investire in SMED**, non sull'idraulica.
@@ -171,9 +171,9 @@ _Step 1: nuovo $T_{setup}$._ $T_{setup}^{new} = 8 / 2 = 4$ h.
 
 _Step 2: nuovo TO._ $TO^{new} = 400 - 14 - 4 = 382$ h.
 
-_Step 3: nuova Ap._ $$A_p^{new} = \frac{382}{400} = 0{,}955 = \mathbf{95{,}5%}$$
+_Step 3: nuova Ap._ $$A_p^{new} = \frac{382}{400} = 0{,}955 = \mathbf{95{,}5}$$
 
-_Step 4: portiere extra prodotte._ $\Delta TO = 4$ h ⇒ $\Delta Q = 4 \cdot 60 = \mathbf{240}$ portiere extra al mese (assumendo Ep = Q = 100%, altrimenti il guadagno effettivo è $\Delta TO \cdot 60 \cdot E_p \cdot Q$).
+_Step 4: portiere extra prodotte._ $\Delta TO = 4$ h ⇒ $\Delta Q = 4 \cdot 60 = \mathbf{240}$ portiere extra al mese (assumendo Ep = Q = 100, altrimenti il guadagno effettivo è $\Delta TO \cdot 60 \cdot E_p \cdot Q$).
 
 Il salto di Ap è di soli +1 punto percentuale, ma in volume corrisponde a 240 portiere/mese — non trascurabile per un Tier 1 con margini ridotti.
 
