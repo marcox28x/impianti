@@ -53,4 +53,4 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 ## Collegamenti
 - ← [[01 Cap1 - Introduzione ai sistemi di produzione]]
 - → [[03 Cap3 - Prestazioni dei sistemi di produzione]]: ogni classe ha **target di OEE diversi** (una linea ha OEE più alto di un reparto)
-- → [[06 Cap6 - Layout e flussi di materiali]]: job/flow/cell determinano direttamente il
+- → [[06 Cap6 - Layout e flussi di materiali]]: job/flow/cell determinano direttamente il layout fisico

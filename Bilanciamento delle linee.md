@@ -56,4 +56,22 @@ Euristico **con precedenze** (rappresentate alla PERT in matrice $P$, **transiti
 - [[Legge di Little e WIP]] — dopo il bilanciamento, il dimensionamento delle scorte interoperazionali
 - [[Flow shop]] · [[Layout a celle]] — dove il bilanciamento è rilevante
 - [[Potenzialità di mix]] — il collo determina la potenzialità della linea
-- §5.3.1 di `Impianti_2026 - 05` · [[05 Cap5 - Configurazione dei sistemi di produzione]] · [[_Knowledge Graph v2]] §5.3
+- §5.3.1 di `Impianti_2026 - 05` · [[05 Cap5 - Configurazione dei sistemi di produzione]] · [[_Knowledge Graph v2]] §5.3.1
+
+
+
+Per il bilanciamento si parte dal tempo ciclo
+
+formula tempo ciclo
+formula tempo ciclo per trasporto continuo
+
+viene definita il tempo di operazione della postazione j TOPj
+poi si nota che il TOP <= TCL
+poiche ovviamente il TCL è il tick, le operazioni della postazione devono finire entro quel tempo in modo che possa passare alla prossima, se non succede cala la produttivita
+bene ora si definisce il tempo di inattività della postazione formula.
+poi si definisce il balance delay che è la somma dei tempi di inattività delle macchine
+questi ci mostrano che il BD è quello che voglio minimizzare, ora dalle formule trovo che il BD minimo coincide col minimo numero di stazioni.
+ora parliamo di salveson
+salveson ci dice che dobbiamo calcolare il minimo facendo prima il calcolo dei tempi diviso il TCL prendiamo il suo intero inferiore e aggiungiamo 1
+poi prendiamo i tempi che impiegano piu della metà del tempo ciclo. questi non possono essere accorpati in piu postazioni quindi se il loro numero è maggiore di M' allora sarà questo il numero minimo di postazioni.
+poi ci sta un esempio ma è abbastanza facile
