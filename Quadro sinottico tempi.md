@@ -1,3 +1,11 @@
+---
+aliases:
+  - "Gerarchia dei tempi OEE"
+  - "Scomposizione gerarchica dei tempi"
+  - "Tempo di apertura"
+  - "Tempo di apertura impianto"
+  - "Tempo operativo a valore aggiunto"
+---
 
 
 > [!tldr] In 10 secondi Il **quadro sinottico tempi** è la scomposizione gerarchica del tempo solare in sei livelli decrescenti (TS → TA → TC → TO → TON → TOVA): a ogni passo si sottrae una categoria di perdita, finché resta solo il tempo per cui il cliente è disposto a pagare.

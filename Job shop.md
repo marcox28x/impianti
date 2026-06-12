@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Job Shop"
+  - "Job-shop"
+---
 
 
 > [!tldr] In 10 secondi Il **job shop** è la soluzione impiantistica della massima flessibilità: macchine **general-purpose** raggruppate in **reparti per affinità tecnologica** (reparto torni, reparto frese…), in cui ogni prodotto segue un proprio routing — anche alternativo — attraversando i reparti che gli servono. Sinonimo di "produzione per reparti". È l'opposto polare del [[Flow Shop]].
@@ -199,12 +204,12 @@ Il **job shop** è un sistema produttivo caratterizzato da **attrezzature e mano
 **Prerequisiti (cosa devi sapere PRIMA):**
 
 - [[Routing / Ciclo tecnologico]] — concetto base che sta dietro al job shop
-- [[Macchine general-purpose vs specializzate]] — distinzione costitutiva
-- [[Reparti per affinità tecnologica]] — principio organizzativo
+- Macchine general-purpose vs specializzate — distinzione costitutiva
+- Reparti per affinità tecnologica — principio organizzativo
 - [[CODP - Customer Order Decoupling Point|CODP]] — contesto di mercato compatibile
 - [[Matrice Prodotto-Processo]] — dove si colloca il job shop (vertice alto-sinistra)
 - [[Classificazione per processi tecnologici|Produzione per parti vs per processo]] — il job shop è quasi sempre per parti
-- [[Discreta (unitaria / a lotti) vs continua]] — il job shop è discreto
+- Discreta (unitaria / a lotti) vs continua — il job shop è discreto
 
 **Conseguenze (cosa ne dipende DOPO):**
 
@@ -214,7 +219,7 @@ Il **job shop** è un sistema produttivo caratterizzato da **attrezzature e mano
 - [[WIP - Work In Process]] — strutturalmente alto in job shop
 - [[Tempi di attraversamento]] — lunghi e variabili
 - [[Saturazione e Coefficiente di utilizzazione]] — strutturalmente bassa
-- [[Schedulazione e regole di priorità]] — FIFO, EDD, SPT in contesto job shop
+- Schedulazione e regole di priorità — FIFO, EDD, SPT in contesto job shop
 - [[OEE]] e [[TEEP]] — Ep tipica 0.65–0.80 per reparti (vs 0.80–0.95 per linee)
 - [[Scorte interoperazionali]] — disaccoppiano i reparti
 - [[Diagramma multiprodotto]] — strumento di analisi flussi tipico in job shop

@@ -1,4 +1,17 @@
-
+---
+aliases:
+  - "Concurrent engineering"
+  - "Concurrent Engineering"
+  - "Coefficiente di impiego"
+  - "Coefficiente di scarto"
+  - "Esplosione dei fabbisogni - MRP"
+  - "DB di progetto - produzione - ordinazione"
+  - "Lead time nella DB"
+  - "Validità temporale nella DB"
+  - "Codifica item"
+  - "Archivi tecnici"
+  - "Distinta base di ordinazione"
+---
 > **In 10 secondi:** elenco gerarchico-strutturale degli item che compongono un prodotto, con coefficienti che dicono _quanti pezzi figli servono per un padre_ — è la ricetta numerica che permette di calcolare quanti materiali ordinare, quanti semilavorati produrre, quando e in che ordine.
 
 ---
@@ -254,13 +267,13 @@ Tutti i fabbisogni raddoppiano in modo proporzionale (la formula è lineare in $
 - [[Esplosione dei fabbisogni - MRP]] — applicazione operativa della formula vista in §5
 - [[Concurrent Engineering]] — fa convergere le tre BOM in un'unica
 - [[Make or Buy]] — decisione che si annota nella BOM di ordinazione
-- [[Diagramma quantitativo (bilancio di massa)]] — usa i dati di BOM per il bilancio
+- Diagramma quantitativo (bilancio di massa) — usa i dati di BOM per il bilancio
 - [[Coefficiente di scarto K1]] (vedi §3 nota su [[OEE]]) — collegamento col tasso di qualità
 
 ### Concetti correlati
 
-- [[Tracciabilità del prodotto]] — la validità dei legami è alla base
-- [[Gestione ricambi e assistenza]] — usa esplosione di BOM storiche
+- Tracciabilità del prodotto — la validità dei legami è alla base
+- Gestione ricambi e assistenza — usa esplosione di BOM storiche
 - [[Lead time]] — concetto chiave in più contesti, qui in versione "termine correttivo del legame"
 
 ---

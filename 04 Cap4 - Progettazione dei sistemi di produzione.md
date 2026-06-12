@@ -28,33 +28,33 @@ La progettazione può essere ex novo (rara) o — molto più spesso — riproget
 - [[Foglio di lavoro]]
 
 ### 4.3 Rappresentazione dei processi
-- [[Diagramma qualitativo]]
-- [[Diagramma sequenziale ASME]]
-- [[Simboli ASME]] (operazione, controllo, trasporto, attesa, storage)
-- [[Diagramma quantitativo]]
-- [[Diagramma di Sankey]]
+- Diagramma qualitativo
+- Diagramma sequenziale ASME
+- Simboli ASME (operazione, controllo, trasporto, attesa, storage)
+- Diagramma quantitativo
+- Diagramma di Sankey
 
 ### 4.4 Bilancio di massa
 - [[Bilancio di massa]]
-- [[MP principali]] (definite vs indefinite)
-- [[MP ausiliarie]] (dirette vs indirette)
-- [[Parti componenti]]
-- [[Sottoprodotti]]
-- [[Cascami]]
-- [[Scarti]]
-- [[Sfridi e ritagli]]
-- [[Boccami]]
-- [[Rottami]]
+- MP principali (definite vs indefinite)
+- MP ausiliarie (dirette vs indirette)
+- Parti componenti
+- Sottoprodotti
+- Cascami
+- Scarti
+- Sfridi e ritagli
+- Boccami
+- Rottami
 - [[Perdite e rifiuti]]
 
 ### 4.5 Ingegnerizzazione
 - [[Ingegnerizzazione (industrializzazione)]]
 - [[Costo della complessità]]
-- [[Unit level activity]]
-- [[Batch level activity]]
-- [[Product level activity]]
-- [[Facility level activity]]
-- [[Similitudine tecnologica e famiglie di prodotto]]
+- Unit level activity
+- Batch level activity
+- Product level activity
+- Facility level activity
+- Similitudine tecnologica e famiglie di prodotto
 - [[Analisi ABC (Pareto 80-20)]]
 - [[Make or buy]]
 - [[Parti unificate]] (UNI, EN, ISO)

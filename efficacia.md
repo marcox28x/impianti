@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Efficacia"
+---
 
 >L’efficacia è una **prestazione esterna** che misura la capacità dell’azienda di soddisfare il cliente del processo (esterno o interno) di cui si sta misurando la prestazione.
 

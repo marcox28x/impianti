@@ -17,20 +17,20 @@ Due problemi gemelli: **saturazione** (N_j = ⌈Q/P_j⌉ macchine per tipo, con 
 ### 5.2 Bilanciamento monoprodotto
 - [[Elemento minimo di lavoro]]
 - [[Tempo di ciclo linea (TCL)]]
-- [[Tempo operazione stazione (TOPj)]]
+- Tempo operazione stazione (TOPj)
 - [[Vincoli di precedenza]]
-- [[Tempo di inattività stazione]]
+- Tempo di inattività stazione
 - [[Balance Delay (BD)]]
-- [[Coefficiente di inattività (i)]]
-- [[Numero minimo stazioni M']]
-- [[Numero minimo stazioni M'']]
-- [[M_min = max(M', M'')]]
+- Coefficiente di inattività (i)
+- Numero minimo stazioni M'
+- Numero minimo stazioni M''
+- M_min = max(M', M'')
 
 ### 5.3 Euristiche di bilanciamento
-- [[Metodo di Salveson]]
-- [[Metodo Kilbridge-Wester]]
-- [[Metodo di Hoffmann]]
-- [[COMSOAL]]
+- [[Bilanciamento delle linee|Bilanciamento di linea]]
+- ~~Metodo Kilbridge-Wester~~
+- ~~Metodo di Hoffmann~~
+- ~~COMSOAL~~
 
 ### 5.4 Bilanciamento multiprodotto
 - [[Bilanciamento multiprodotto]]
@@ -54,4 +54,4 @@ Due problemi gemelli: **saturazione** (N_j = ⌈Q/P_j⌉ macchine per tipo, con 
 ## Collegamenti
 - ← [[04 Cap4 - Progettazione dei sistemi di produzione]]: ciclo e tempi arrivano da qui
 - ← [[03 Cap3 - Prestazioni dei sistemi di produzione]]: P_j e OEE sono input al calcolo N_j
-- → [[06 Cap6 - Layout e flussi di materiali]]: N_j e la disposizione delle stazioni definiscono il layout fisico
+- → [[06 Cap6 - Layout e flussi di materiali]]: N_j e la disposizione d

@@ -1,11 +1,16 @@
 ---
 aliases:
-  - CODP
-  - MTS
-  - ATO
-  - MTO
-  - PTO
-  - ETO
+  - "CODP"
+  - "MTS"
+  - "ATO"
+  - "MTO"
+  - "PTO"
+  - "ETO"
+  - "Internal Lead Time"
+  - "Lead Time Interno"
+  - "Indice di Programmazione"
+  - "Leve di riduzione del delivery lead time"
+  - "Demand Planning"
 ---
 
 > **In 10 secondi:** Il CODP è il punto della catena produttiva in cui l'ordine cliente "incontra" la produzione. A monte si lavora su **previsione** (push), a valle su **ordine** (pull). Spostarlo cambia la natura stessa del sistema produttivo (MTS ↔ ATO ↔ MTO ↔ PTO ↔ ETO).

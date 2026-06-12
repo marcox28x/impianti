@@ -1,4 +1,10 @@
-
+---
+aliases:
+  - "Specializzazione manodopera"
+  - "Polivalenza manodopera"
+  - "Job enrichment"
+  - "Job rotation"
+---
 > **In 10 secondi:** 4 modi di sincronizzare il passaggio dei pezzi tra stazioni — da asincrono (operatore o automatismo libero) a continuo (vincolato dal nastro). Trade-off ricorrente: rigidità/efficienza ↔ elasticità/WIP.
 
 ---
@@ -163,7 +169,7 @@ Premesse necessarie:
 ### Prerequisiti (sapere PRIMA)
 
 - [[Stazioni e fasi]] — concetto base di aggregazione delle attività in postazioni
-- [[Job-shop vs Flow-shop]] — contesto: i ritmi imposto/continuo sono tipici del flow-shop
+- Job-shop vs Flow-shop — contesto: i ritmi imposto/continuo sono tipici del flow-shop
 - [[Group Technology e celle]] — evoluzione storica verso linee dedicate
 
 ### Conseguenze (sapere DOPO / argomenti a valle)

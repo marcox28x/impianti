@@ -130,7 +130,7 @@ Time-to-market       (tempo idea → lancio)                             ↓ meg
 - [[Distinta base (BOM)]] → l'oggetto che VRP ristruttura
 - [[economia di scala]] vs [[economia di scopo]] → le leve che VRP sfrutta (parti fisse ad alto volume = scala; gamma condivisa = scopo)
 - [[Ciclo di vita del prodotto]] → il contesto che rende urgente ridurre time-to-market
-- [[Standardizzazione e personalizzazione]] → il trade-off che VRP gestisce
+- Standardizzazione e personalizzazione → il trade-off che VRP gestisce
 
 ### Cosa ne consegue (dipendenze)
 

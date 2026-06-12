@@ -1,3 +1,12 @@
+---
+aliases:
+  - "Perdite di velocità"
+  - "Perdite da difetti"
+  - "Perdite misurabili"
+  - "Set up e riattrezzaggi"
+  - "Perdite e rifiuti"
+  - "Six Big Losses e TPM"
+---
 **In 10 secondi:** Sono le sei famiglie di inefficienza in cui Nakajima (TPM, 1988) ha classificato tutto ciò che fa sì che una macchina non produca al massimo. Sono raggruppate in **3 macro-categorie** (perdite di tempo misurabili, di velocità, da difetti) e mappano direttamente sui **3 coefficienti dell'[[OEE]]** (Disponibilità, Efficienza prestazioni, Qualità).
 
 ---

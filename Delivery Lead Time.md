@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Lead Time"
+  - "Lead time"
+---
 **In 10 secondi:** Il Delivery Lead Time è il tempo che il cliente concede all'azienda per consegnargli il prodotto dopo aver emesso l'ordine. Non lo decidi tu, lo decide il mercato. Confrontato con i tempi interni della tua fabbrica, ti dice quali fasi puoi fare su ordine e quali devi anticipare su previsione — cioè dove piazzare il [[CODP - Customer Order Decoupling Point]].
 
 ---

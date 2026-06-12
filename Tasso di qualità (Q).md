@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Tasso di qualità"
+  - "Tasso di qualità Q"
+---
 # Tasso di qualità (Q)
 
 > In 10 secondi: Q è la frazione di pezzi conformi sul totale di tutti i pezzi che la macchina ha lavorato (conformi + scarti + rilavorati). È il terzo fattore di OEE e dice "di tutto quello che ho prodotto, quanto era davvero vendibile?".
@@ -185,7 +190,7 @@ Guadagno: +1,8 punti percentuali. Modesto, perché il vero problema sono le rila
 - [[03 Cap3 - Prestazioni]] (MOC)
 - [[Quadro sinottico tempi]] — Q opera tra TON e TOVA
 - [[Sei grandi perdite (six big losses)]] — Q copre le ultime due (scarti, rilavorazioni)
-- [[Scarti, rilavorazioni e sfridi]] — distinzione tipologica
+- Scarti, rilavorazioni e sfridi — distinzione tipologica
 
 **Cosa ne consegue (dipendenze):**
 - [[OEE]] — Q è uno dei tre fattori: $OEE = A_p \cdot E_p \cdot Q$

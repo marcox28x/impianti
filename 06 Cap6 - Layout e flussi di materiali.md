@@ -1,3 +1,15 @@
+---
+aliases:
+  - "Layout per processo"
+  - "Layout per prodotto"
+  - "Layout a posizione fissa"
+  - "Layout a postazioni fisse"
+  - "Layout per processo vs per prodotto"
+  - "Confronto tra layout"
+  - "Geometrie del layout in linea"
+  - "Varianti del layout per prodotto"
+  - "Sistemi di movimentazione"
+---
 ## Domanda del capitolo
 **Come dispongo nello spazio le macchine e i reparti calcolati al Cap 5 per minimizzare i trasporti interni e massimizzare l'efficienza del flusso?**
 
@@ -11,7 +23,7 @@ Quattro tipologie di layout: **posizione fissa** (prodotto ingombrante, risorse 
 - [[Layout per processo]]
 - [[Layout per prodotto]]
 - [[Varianti del layout per prodotto]] (serie, parallelo, misto)
-- [[Geometrie di linea]] (rettilineo, U, zig-zag)
+- Geometrie di linea (rettilineo, U, zig-zag)
 - [[Layout a celle]]
 - [[Confronto tra layout]] (pro/contro)
 
@@ -19,7 +31,7 @@ Quattro tipologie di layout: **posizione fissa** (prodotto ingombrante, risorse 
 - [[Analisi CVP]] (Cost-Volume-Profit)
 - [[Break Even Point]]
 - [[Volume critico Q*]]
-- [[Regola volume-varietà]]
+- Regola volume-varietà
 
 ### 6.3 Analisi dei flussi di materiali
 - [[Costo totale di trasporto interno]]
@@ -30,10 +42,10 @@ Quattro tipologie di layout: **posizione fissa** (prodotto ingombrante, risorse 
 - [[Principio di vicinanza]]
 
 ### 6.4 Dimensionamento delle aree
-- [[Area totale macchina]] (ingombro + operatore + manutenzione + MP/PF locali + corridoi)
-- [[Corridoi e normativa]]
+- Area totale macchina (ingombro + operatore + manutenzione + MP/PF locali + corridoi)
+- Corridoi e normativa
 - [[Sistemi di movimentazione]]
-- [[Flusso monodirezionale vs bidirezionale]]
+- Flusso monodirezionale vs bidirezionale
 
 ## Formula chiave
 $$ CT_{trasp} = \sum_i \sum_j q_{ij} \cdot c_{ij} \cdot d_{ij} $$
@@ -48,4 +60,4 @@ $$ CT_{trasp} = \sum_i \sum_j q_{ij} \cdot c_{ij} \cdot d_{ij} $$
 - ← [[05 Cap5 - Configurazione dei sistemi di produzione]]: N_j e TCL definiscono cosa si posiziona
 - ← [[04 Cap4 - Progettazione dei sistemi di produzione]]: il bilancio di massa alimenta l'analisi dei flussi
 - ← [[02 Cap2 - Classificazione dei sistemi di produzione]]: job shop ↔ layout per processo, flow shop ↔ layout per prodotto
-- → [[07 Cap7 - Impianti di servizio]]: le utenze da servire sono quelle posizionate qui
+- → 07 Cap7 - Impianti di servizio: le utenze da servire sono quelle posizionate qui

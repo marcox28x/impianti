@@ -16,7 +16,7 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 - [[CODP - Customer Order Decoupling Point]]
 - [[Delivery Lead Time]]
 - [[Leve di riduzione del delivery lead time]]
-- [[Postponement]]
+- [[Postponement e Commonality]]
 
 #### 2.1.2 Rispetto ai processi tecnologici
 - [[Classificazione per processi tecnologici]]
@@ -37,9 +37,9 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 - [[Job rotation]]
 
 #### 2.1.5 Rispetto ai volumi
-- [[Produzione discreta]] (unitaria, a lotti)
-- [[Produzione continua]]
-- [[Congruenze e incongruenze tra classificazioni]]
+- Produzione discreta (unitaria, a lotti)
+- Produzione continua
+- Congruenze e incongruenze tra classificazioni
 
 ---
 ## Punti chiave per l'esame
@@ -53,4 +53,4 @@ Esistono 4 criteri di classificazione: rispetto al mercato (CODP → MTS/ATO/MTO
 ## Collegamenti
 - ← [[01 Cap1 - Introduzione ai sistemi di produzione]]
 - → [[03 Cap3 - Prestazioni dei sistemi di produzione]]: ogni classe ha **target di OEE diversi** (una linea ha OEE più alto di un reparto)
-- → [[06 Cap6 - Layout e flussi di materiali]]: job/flow/cell determinano direttamente il layout fisico
+- → [[06 Cap6 - Layout e flussi di materiali]]: job/flow/cell determinano direttamente il

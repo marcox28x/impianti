@@ -1,3 +1,9 @@
+---
+aliases:
+  - "Ingegnerizzazione"
+  - "Ingegnerizzazione (industrializzazione)"
+  - "Ingegnerizzazione del prodotto"
+---
 Ridurre i costi legati alla complessita:
 - processi
 - prodotti

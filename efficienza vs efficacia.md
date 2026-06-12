@@ -1,3 +1,9 @@
+---
+aliases:
+  - "Efficienza vs Efficacia"
+  - "Efficienza vs efficacia"
+  - "Efficacia ed efficienza"
+---
 > [!important] Concetto chiave del paragrafo 3.1
 > Efficienza ed efficacia sono **dimensioni indipendenti** delle prestazioni di un sistema produttivo. Possono combinarsi in qualsiasi modo. L'obiettivo dell'azienda è raggiungere livelli adeguati in **entrambe**.
 

@@ -174,7 +174,7 @@ $$L' = \frac{5.300}{5.760} = 0{,}920 \quad\Rightarrow\quad TEEP' = 0{,}920 \cdot
 - [[OEE — Overall Equipment Effectiveness]] — il "fratello stretto", $OEE = TEEP / L$
 - [[Capacità produttiva (CP)]] — la formula $CP = P \cdot T_A \cdot TEEP$ deriva direttamente da qui
 - [[Six Big Losses e TPM]] — TEEP è la metrica chiave del Total Productive Maintenance
-- [[Dimensionamento sistemi produttivi]] — TEEP atteso come input progettuale (Cap4)
+- Dimensionamento sistemi produttivi — TEEP atteso come input progettuale (Cap4)
 
 ---
 

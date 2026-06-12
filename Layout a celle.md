@@ -189,7 +189,7 @@ Come si progetta un layout a celle, passo per passo:
 ### Dipendenze (ciò che si appoggia su questa nota)
 
 - [[Group Technology]] — il principio teorico applicato
-- [[Famiglie di componenti]] — l'unità organizzativa fondamentale
+- Famiglie di componenti — l'unità organizzativa fondamentale
 - [[Diagramma multiprodotto]] — strumento operativo per identificare le famiglie
 - [[Saturazione e numero macchine]] — dimensionamento di ciascuna cella
 - [[Bilanciamento linea monoprodotto]] — applicabile all'interno della cella

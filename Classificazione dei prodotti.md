@@ -1,4 +1,11 @@
-
+---
+aliases:
+  - "Prodotti modulari vs integrali"
+  - "Prodotti semplici vs complessi"
+  - "Design modulare"
+  - "Famiglie di prodotto"
+  - "Similitudine tecnologica"
+---
 
 > **In 10 secondi:** i prodotti si classificano per **aggregazione** (a che livello li guardo), **complessità gestionale** (quanto è incasinata la distinta base) e **modularità** (i pezzi sono intercambiabili o no) e ognuna di queste tre risposte vincola le scelte di sistema a valle.
 

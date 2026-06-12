@@ -1,3 +1,11 @@
+---
+tags: [impianti, cap4, appunti-lezione]
+tipo: fonte-grezza
+stato: integrata
+---
+> [!note] Appunti di lezione (9 aprile) — INTEGRATI nella wiki
+> Contenuto confluito in: [[Occasioni di progettazione]] (ex novo, ampliamento, ammodernamento, conversione) · [[Studio di fattibilità]] (analisi tecnico-economica, massima→definitivo→esecutivo, capacità di influire sui costi decrescente) · [[Make or buy]] (integrazione verticale, cosa delegare a terzi). Conservati come fonte grezza.
+
 La progettazione nasce da tutta una serie di alternative, dove io vado via via a focalizzarmi sui dettagli.
 
 
@@ -30,7 +38,7 @@ dettaglio investimento iniziale:
 - …
 
 a questo punto analisi costi-benefici
-vengono utilizzati indicatori come il ritorno investimenti, l’utile, cashflow, ecc.
+vengono utilizzati indicatori come il ritorno investimenti, l'utile, cashflow, ecc.
 
 La differenza tra valutazione economica e valutazione finanziaria.
 
@@ -59,14 +67,4 @@ Il progetto esecutivo è molto dettagliato, contiene anche informazioni come la 
 Il progetto di massima consente di trovare alternative, ancora valutabili.
 	Poi uno di questi progetti di massima diviene progetto definitivo.
 
-All’inizio del progetto decido tantissimo, e questo mi impatta tantissimo sul costo.
-
-
-
-
-
-
-
-
-
-
+All'inizio del progetto decido tantissimo, e questo mi impatta tantissimo sul costo.

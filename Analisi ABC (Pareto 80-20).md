@@ -184,16 +184,16 @@ L'ABC sul fatturato perde rilevanza decisionale: andrebbe **rifatta sul profitto
 **Prerequisiti — cosa devo sapere prima**:
 
 - [[Distinta base (BOM)]] e [[Ciclo di lavorazione]] — l'ABC è uno strumento dell'[[Ingegnerizzazione del prodotto]] e si applica al mix identificato dalla distinta.
-- [[Programma di produzione]] — il set di partenza su cui eseguire l'ABC.
+- Programma di produzione — il set di partenza su cui eseguire l'ABC.
 - [[Similitudine tecnologica]] — spesso si raggruppano i prodotti in famiglie _prima_ di applicare l'ABC.
 
 **Conseguenze — cosa abilita / a cosa serve**:
 
 - [[Make or buy]] — la fascia A (dettaglio) abilita la decisione make/buy informata; la fascia C spesso → buy o eliminazione.
-- [[Dimensionamento magazzino]] — l'ABC sulle giacenze definisce il sottoinsieme su cui dimensionare ($G_{min}, G_m, G_{max}$).
+- Dimensionamento magazzino — l'ABC sulle giacenze definisce il sottoinsieme su cui dimensionare ($G_{min}, G_m, G_{max}$).
 - [[Group Technology]] e [[Layout a celle]] — l'ABC supporta l'identificazione delle famiglie tecnologiche su cui costruire le celle.
 - [[VRP - Variety Reduction Program]] — l'ABC è un input per decidere quali codici unificare o eliminare.
-- [[Mix produttivo]] — output diretto dell'analisi ABC su fatturato/profitto delle famiglie.
+- Mix produttivo — output diretto dell'analisi ABC su fatturato/profitto delle famiglie.
 
 ---
 

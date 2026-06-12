@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Flow Shop"
+  - "Flow-shop"
+---
 
 > [!tldr] In 10 secondi Il **flow shop** è una soluzione impiantistica in cui le macchine sono disposte **in sequenza fissa** seguendo il ciclo tecnologico di un prodotto: un grezzo entra a un'estremità e ne esce un finito. È la naturale evoluzione della [[Group Technology]] quando i volumi salgono al punto da giustificare l'automazione spinta.
 
@@ -201,7 +206,7 @@ Il **flow shop** è un'organizzazione produttiva in cui i macchinari sono dispos
 - [[Analisi CVP]] — strumento decisionale flow shop vs alternative
 - [[Postponement]] — tecnica per estendere il flow shop a varietà maggiori
 - [[OEE]] e [[TEEP]] — metrica di prestazione critica per flow shop (Ap, Ep alti)
-- [[Layout in linea — geometrie]] — rettilineo, U, zig-zag, tavola rotante
+- Layout in linea — geometrie — rettilineo, U, zig-zag, tavola rotante
 
 ---
 

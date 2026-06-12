@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Pianificazione Programmazione Scheduling"
+---
 Ogni sistema produttivo deve essere pianificato su tre orizzonti:
 
 ## Pianificazione - lungo periodo:
@@ -17,4 +21,4 @@ La sequenza operativa concreta: _"Martedì mattina un operaio usa la macchina 3 
 
 Una fabbrica vive di **routine** (il ciclo pianificazione-programmazione-scheduling che si ripete) più **progetti di miglioramento** (per stare dietro a nuove tecnologie, nuovi concorrenti, nuove leggi, gusti dei clienti che cambiano). Non puoi stare fermo: o anticipi il cambiamento o lo subisci.
 
-Importante il concetto di **rolling planning**, l'orizzonte temporale dell'analisi avanza continuamente insieme al tempo reale
+Importante il concetto di [[rolling planning]], l'orizzonte temporale dell'analisi avanza continuamente insieme al tempo reale

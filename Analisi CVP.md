@@ -1,4 +1,9 @@
-
+---
+aliases:
+  - "Break Even Point"
+  - "Volume critico Q*"
+  - "Layout per processo vs per prodotto"
+---
 
 No, non è (in primo luogo) una questione di margine: è una questione di **costo per pezzo**. Il margine c'entra, ma in modo diverso da come lo stai immaginando — ci arrivo alla fine.
 

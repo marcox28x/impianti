@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Time to market"
+---
 il **time to market** è una leva competitiva, per definizione è il tempo che intercorre da quando un'azienda ha l'idea di un nuovo prodotto a quando quel prodotto è effettivamente disponibile per la vendita sul mercato.
 
 In pratica è il cronometro che parte quando qualcuno in riunione dice "facciamo un nuovo modello di X" e si ferma quando il primo cliente può comprarlo in negozio.

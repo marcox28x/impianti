@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Efficienza di carico"
+  - "Efficienza di carico L"
+---
 
 ---
 
@@ -199,8 +204,8 @@ Due strade interpretative — ed è qui che si gioca la comprensione:
 ### Trasversali
 
 - [[03 Cap3 - Prestazioni dei sistemi di produzione]]
-- [[Esempio Gragnano - calcolo OEE mix]]
-- [[Esempio nylon - linea continua]]
+- Esempio Gragnano - calcolo OEE mix
+- Esempio nylon - linea continua
 
 ---
 

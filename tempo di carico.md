@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Tempo di carico"
+---
 Il tempo di carico indica il tempo per il quale si è programmato che la macchina lavori.
 In altre parole è l’intervallo temporale in cui la macchina è accesa.
 

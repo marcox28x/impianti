@@ -1,4 +1,7 @@
-
+---
+aliases:
+  - "Elasticità produttiva"
+---
 
 > **In 10 secondi:** capacità di un sistema aziendale _nel suo complesso_ di reagire a cambiamenti del contesto (nuovi prodotti, mix, volumi, piani di consegna). Si misura in tempo di risposta + costo di risposta. Si declina in 4 dimensioni. Non va confusa con la _versatilità_, che riguarda solo i macchinari.
 
@@ -202,7 +205,7 @@ La flessibilità invece dipende anche da know-how, personale, strutture organizz
 - [[Job Shop]] — caso di massima flessibilità su tutte le dimensioni
 - [[Flow Shop]] — caso di minima flessibilità
 - [[Layout a celle]] — compromesso flessibilità/efficienza
-- [[Macchine general purpose vs specializzate]] — leva tecnica per la flessibilità di mix
+- Macchine general purpose vs specializzate — leva tecnica per la flessibilità di mix
 - [[Polivalenza manodopera]] — leva organizzativa
 - [[Mass customization]] — strategia di mercato basata su alta flessibilità di prodotto
 - [[VRP - Variety Reduction Program]] — leva progettuale per ridurre il costo della flessibilità

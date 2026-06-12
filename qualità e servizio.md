@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Livello di servizio"
+  - "Qualità di prodotto e qualità di servizio"
+---
 
 
 > **In 10 secondi:** Qualità = _cosa_ l'azienda offre al cliente (conformità del prodotto alle specifiche). Servizio = _come_ glielo offre (prontezza, puntualità, disponibilità, accuratezza, assistenza). Sono entrambe **prestazioni di efficacia** — misurano la soddisfazione del cliente, non quanto efficienti sono i processi interni.
@@ -165,7 +170,7 @@ Quando devi **definire o valutare** il sistema di metriche di qualità e servizi
 - [[Efficacia ed efficienza]] — la dicotomia generale di cui qualità e servizio sono il lato efficacia
 - [[CODP - Customer Order Decoupling Point|CODP]] — il punto di disaccoppiamento, decide quali metriche di servizio sono pertinenti
 	 — modalità di risposta al mercato che condizionano le metriche
-- [[Cliente interno vs cliente esterno]] — per applicare lo schema anche intra-azienda
+- Cliente interno vs cliente esterno — per applicare lo schema anche intra-azienda
 
 **Dipendenze (cosa ne consegue):**
 
@@ -173,7 +178,7 @@ Quando devi **definire o valutare** il sistema di metriche di qualità e servizi
 - [[Tempo di attraversamento]] — base tecnica per misurare la prontezza interna
 - [[OEE]] e [[Tasso di qualità (Q)]] — il pezzo "qualità di prodotto" entra dentro l'OEE come fattore $Q$
 - [[Servitization]] — porta l'attenzione sul lato pre/post-vendita, fino a invertire il rapporto prodotto/servizio
-- [[Dimensionamento scorte]] — leva gestionale tipica per aumentare disponibilità e ridurre stock-out
+- Dimensionamento scorte — leva gestionale tipica per aumentare disponibilità e ridurre stock-out
 
 ---
 

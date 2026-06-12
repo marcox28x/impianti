@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Group Technology"
+  - "Group Technology e celle"
+---
 
 > **In 10 secondi**: GT è una filosofia progettuale che riorganizza l'impianto in _celle_ dedicate a _famiglie_ di componenti accomunati da ciclo/geometria simile. Ibrido tra job-shop e flow-shop: meno flessibile del primo, più semplice del secondo. Riduce setup, WIP e tempi di attraversamento al prezzo di rigidità inter-cella.
 

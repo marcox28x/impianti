@@ -1,3 +1,10 @@
+---
+aliases:
+  - "Sistemi di produzione"
+  - "sistema di produzione"
+  - "Mercato"
+  - "Valore"
+---
 
 Il **sistema di produzione (o sistema produttivo)** è un aggregato di: uomini, macchine, attrezzature, che ha l'obiettivo di **trasformare** i componenti in ingresso in beni e servizi vendibili.
 

@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Misura delle prestazioni"
+---
 Un sistema produttivo è un entità complessa fatta di macchine, persone, materiali, flussi informativi, e decisioni.
 La misura delle prestazioni è una pratica importante che ci permette di valutare effettivamente se il sistema produttivo sta facendo quello che ci aspettiamo che faccia e lo fa bene.
 

@@ -1,3 +1,9 @@
+---
+aliases:
+  - "Capacità Produttiva"
+  - "Capacità produttiva"
+  - "Capacità produttiva teorica vs reale"
+---
 
 ---
 
@@ -235,12 +241,12 @@ con $TEEP = L \cdot A_p \cdot E_p \cdot Q$ e $OEE = A_p \cdot E_p \cdot Q$.
 - [[Saturazione e coefficiente di utilizzazione]] — confrontando $CP$ con la domanda nasce il coefficiente $u = Q_{richiesta} / CP$
 - [[Numero di macchine necessarie]] — dimensionamento ex-novo: $N = \lceil Q_{richiesta} / CP_{singola_macchina} \rceil$
 - [[Bilanciamento di linea]] — la $CP$ della linea è limitata dal collo di bottiglia
-- [[Riserva e frazionamento]] (Cap7) — analogo concetto per impianti di servizio
+- Riserva e frazionamento (Cap7) — analogo concetto per impianti di servizio
 
 ### Trade-off / connessioni trasversali
 
 - $CP_{teorica}$ ↔ $CP_{reale}$: il gap è esattamente $TEEP$ (ovvero $1 - TEEP$ è la perdita relativa).
-- $CP$ ↔ flessibilità: una linea con $CP$ altissima è tipicamente rigida (flow-shop dedicato); una con $CP$ moderata è flessibile (job-shop). Vedi [[Job shop vs Flow shop]].
+- $CP$ ↔ flessibilità: una linea con $CP$ altissima è tipicamente rigida (flow-shop dedicato); una con $CP$ moderata è flessibile (job-shop). Vedi Job shop vs Flow shop.
 - $CP$ è il **fan-out** dei concetti di Cap3 verso Cap4 (progettazione) e Cap5 (configurazione): tutto il dimensionamento parte da qui.
 
 ---

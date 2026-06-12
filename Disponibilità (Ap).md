@@ -1,3 +1,11 @@
+---
+aliases:
+  - "Disponibilità"
+  - "Disponibilità Ap"
+  - "Manutenzione preventiva"
+  - "Manutenzione su condizione"
+  - "Fermate pianificate vs cause esterne"
+---
 **In 10 secondi:** La Disponibilità Ap misura la **frazione del tempo di carico in cui la macchina è effettivamente in grado di produrre**, dopo aver tolto le perdite di tempo "grandi" e misurabili: guasti e setup. È il primo dei tre coefficienti dell'[[OEE]] e il primo a essere tipicamente attaccato dalle aziende perché si calcola da dati aziendali documentati.
 
 ---

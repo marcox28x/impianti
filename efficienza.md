@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Efficienza"
+---
 
 > L’efficienza è una **rappresentazione interna** che misura la quantità di risorse consumate dall'azienda per ottenere un determinato risultato di processo.
 

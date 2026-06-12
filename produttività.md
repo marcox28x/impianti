@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Produttività"
+---
 Produttività di un fattore produttivo
 $$
 \text{produttività }(f) = \frac{\text{Output}}{\text{Input}}
@@ -181,7 +185,7 @@ Avvicina ma non raggiunge le 200k. Servirebbero **anche** ore extra, oppure un s
 - [[Sistema di produzione]] — il "soggetto" di cui misuriamo la P
 - [[Ciclo di lavorazione]] — definisce T* (tempo teorico per pezzo)
 - [[Tempo di attraversamento]] — distinzione tra TA della singola stazione e TCL della linea
-- [[Volume prodotto]] vs Q conformi/scarti/rilavorazioni
+- Volume prodotto vs Q conformi/scarti/rilavorazioni
 
 ### Conseguenze (cosa ne discende DOPO)
 

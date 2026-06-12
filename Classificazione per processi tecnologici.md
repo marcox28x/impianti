@@ -1,4 +1,11 @@
-
+---
+aliases:
+  - "Produzione di processo"
+  - "Produzione di parti"
+  - "Reversibilità del processo"
+  - "Ciclo obbligato vs non obbligato"
+  - "Soluzioni impiantistiche — Job shop, Group Technology, Flow shop"
+---
 **In 10 secondi:** Si classificano i sistemi produttivi guardando se il prodotto finito è _reversibile_ (smontabile nei suoi componenti) o no — questa singola proprietà fisica detta a cascata ciclo, flusso, layout e gestione.
 
 ---
@@ -163,9 +170,9 @@ Dato un sistema produttivo da analizzare:
 - [[Ciclo obbligato vs non obbligato]] — discende direttamente da questa classificazione
 - [[Soluzioni impiantistiche — Job shop, Group Technology, Flow shop]] — il layout target dipende dalla macro-classe
 - [[Layout per processo vs per prodotto]] — la scelta tipica si appoggia su questo schema
-- [[Classificazione per volumi — discreta e continua]] — asse indipendente ma fortemente correlato
+- Classificazione per volumi — discreta e continua — asse indipendente ma fortemente correlato
 - [[Matrice Prodotto-Processo]] — sintesi finale che incrocia tutte le classificazioni del Cap2
-- [[CODP e modalità di risposta al mercato]] — MTS/MTO/ATO/ETO trovano congruenze tipiche con le macro-classi (es. processo+continua+MTS)
+- CODP e modalità di risposta al mercato — MTS/MTO/ATO/ETO trovano congruenze tipiche con le macro-classi (es. processo+continua+MTS)
 
 ---
 
