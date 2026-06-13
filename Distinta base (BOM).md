@@ -62,40 +62,60 @@ Servirebbe un **documento strutturato** che risponda automaticamente a queste do
 ```
 Livello 0  : Prodotto Finito (PF)         — la radice
 Livello 1  : assiemi/sottoassiemi diretti
-Livello n  : item che compongono il livello n-1
+Livello n+1: item necessari per realizzare gli item di livello n
 Livello max: materie prime e parti acquistate
 ```
 
-Ogni item ha un **codice identificativo univoco**.
+Ogni item ha un **codice identificativo univoco** + eventuale **simbologia** che ne specifica la natura (assieme, sottoassieme, componente, materia prima).
+
+⚠️ Il **numero di livelli non è fisso**: è quello "ritenuto significativo dalla singola azienda e congruente con il proprio processo produttivo" — la profondità della DB è una scelta di modellazione, non una proprietà fisica del prodotto.
 
 **2. Tre rappresentazioni equivalenti**
 
 ```
 DB a livelli    : albero rovesciato, grafica
-DB scalare      : tabella con indentazione che rappresenta i livelli
-DB riepilogata  : tabella con somme totali per item (senza struttura)
-                  → utile per la stima dei fabbisogni complessivi
+DB scalare      : tabella, una riga per nodo; il livello è reso con
+                  l'indentatura (convenzione a punti: B → .J → ..a)
+DB riepilogata  : tabella con le quantità TOTALI di impiego per item
+                  → sacrifica l'informazione strutturale a vantaggio
+                  di una visione complessiva (stima fabbisogni)
 ```
+
+Esempio del PDF (Figura 3): nella scalare la parte `a` compare in più rami con coefficienti diversi; nella riepilogata appare una sola volta con la quantità aggregata (40). È esattamente l'operazione di "aggrega" dello Step 4 in §5.
 
 **3. Informazioni di legame** (i 4 attributi del legame padre→figlio)
 
 ```
 - coefficiente di impiego : quantità del figlio per UNA unità di padre [netto]
-- coefficiente di scarto  : % extra-consumo dovuta a sfridi tecnologici
-                            o scarti di processo
+- coefficiente di scarto  : % extra-consumo, di due nature:
+                            · scarto di PROCESSO (dovuto al montaggio su
+                              uno specifico padre)
+                            · sfridi TECNOLOGICI non eliminabili — il caso
+                              più frequente (taglio di bobine di carta, lamiere)
 - validità temporale      : intervallo di date in cui il legame è valido
                             → tracciabilità + gestione "ad esaurimento"
 - lead time               : correzione temporale del fabbisogno
                             → allinea fabbisogno al ciclo di assemblaggio
 ```
 
+**Perché il coefficiente di impiego va tenuto al netto** (doppia motivazione del PDF): (a) facilita la gestione *contabile* dell'extra-consumo, separato dal fabbisogno netto; (b) permette di intervenire *direttamente sul dato sfrido* quando innovazioni tecnologiche o interventi organizzativi migliorano la resa del processo.
+
+**Doppia utilità della validità temporale**: (a) traccia storica delle modifiche → gestione ricambi e tracciabilità (dalla data di produzione dell'assieme risalgo al componente effettivamente montato); (b) politiche "ad esaurimento": le proposte d'ordine del componente vecchio/nuovo sono elaborate in funzione della data prevista di esaurimento, memorizzata come data di validità del legame.
+
+*Nota:* il PDF cita anche la **provenienza** tra le informazioni che caratterizzano i legami, senza però svilupparla (rimanda alla DB di ordinazione: make/buy, fornitori).
+
 **4. Processi opposti**
 
 ```
 ESPLOSIONE  : top-down. Dato il PF, scompongo nei suoi item
-              → uso: stima fabbisogni, cataloghi, ricambi
-IMPLOSIONE  : bottom-up. Dato un item, trovo tutti gli assiemi/PF che lo usano
-              → uso: impatto di una modifica, gestione mancata consegna
+              → usi: stima fabbisogni · cataloghi delle versioni di prodotto
+                · assistenza tecnica e predisposizione parti di RICAMBIO
+IMPLOSIONE  : bottom-up. Dato un item, trovo gli impieghi DIRETTI e
+              INDIRETTI su assiemi e PF di livello superiore
+              → usi: valutare modifiche (effetti di eliminazione/sostituzione
+                in termini di Δcosto e impatto sulla progettazione)
+                · esaurimento scorte da mancata consegna → quali prodotti
+                e quali COMMESSE risultano interessate
 ```
 
 **5. Evoluzione durante l'ingegnerizzazione**
@@ -108,8 +128,12 @@ DB_produzione  → DB_progetto adattata ai sistemi produttivi disponibili
 DB_ordinazione → DB_produzione + info di approvvigionamento
                  (make/buy, costi standard, lotti minimi, anagrafica fornitori)
 
-→ Con [[Concurrent Engineering]] le tre tendono a convergere in un'unica DB
+→ Con il concurrent engineering le tre tendono a convergere in un'unica DB:
+  le scelte di progettazione sono fatte tenendo conto delle ricadute su
+  produzione, acquisti e tutte le fasi del ciclo di vita del prodotto
 ```
+
+**A cosa servono i dati della DB nei processi gestionali** (dal PDF): procedure di pianificazione e programmazione della produzione · gestione contabile del magazzino · gestione di fornitori e contoterzisti.
 
 ---
 
@@ -244,11 +268,20 @@ Tutti i fabbisogni raddoppiano in modo proporzionale (la formula è lineare in $
 
 ## §7 Errori comuni
 
-> [!warning] ❌ Errore 1 — Confondere coefficiente d'impiego e coefficiente di scarto **Cosa sbaglio:** sommare i due coefficienti, o moltiplicare l'impiego per lo scarto come se fossero la stessa categoria. **Perché è sbagliato:** sono **due informazioni distinte**. Il $c_{impiego}$ dice _quanti pezzi netti servono_; il $c_{scarto}$ è il _moltiplicatore correttivo_ (1+%) che tiene conto del materiale buttato. Il libro raccomanda esplicitamente di mantenere il $c_{impiego}$ al netto degli sfridi, così che il dato di scarto sia separato e su di esso si possa intervenire con miglioramenti di processo. **Come evitarlo:** ricorda la formula scomposta: $Q_{figlio} = Q_{padre} \cdot c_{imp} \cdot (1 + c_{scarto})$. Tre fattori distinti, ognuno con un significato preciso.
+> [!warning] ❌ Errore 1 — Confondere coefficiente d'impiego e coefficiente di scarto
+> **Cosa sbaglio:** sommare i due coefficienti, o moltiplicare l'impiego per lo scarto come se fossero la stessa categoria.
+> **Perché è sbagliato:** sono **due informazioni distinte**. Il $c_{impiego}$ dice _quanti pezzi netti servono_; il $c_{scarto}$ è il _moltiplicatore correttivo_ (1+%) che tiene conto del materiale buttato. Il libro raccomanda esplicitamente di mantenere il $c_{impiego}$ al netto degli sfridi: facilita la gestione contabile dell'extra-consumo e permette di intervenire direttamente sul dato sfrido quando il processo migliora.
+> **Come evitarlo:** ricorda la formula scomposta: $Q_{figlio} = Q_{padre} \cdot c_{imp} \cdot (1 + c_{scarto})$. Tre fattori distinti, ognuno con un significato preciso.
 
-> [!warning] ❌ Errore 2 — Trattare la BOM come oggetto statico **Cosa sbaglio:** parlare di "_la_ distinta base" come se fosse un documento unico, immutabile, identico tra progettazione e produzione. **Perché è sbagliato:** la BOM ha (a) un'**evoluzione** lungo l'ingegnerizzazione (progetto → produzione → ordinazione, ognuna con informazioni aggiuntive), e (b) una **storia temporale** governata dalla validità dei legami. Lo stesso prodotto può avere versioni diverse di BOM in tempi diversi. La BOM di progetto può essere tecnicamente perfetta ma non realizzabile con le macchine disponibili — per questo viene poi adattata in BOM di produzione. **Come evitarlo:** all'orale, quando ti chiedono "cos'è la distinta base", parti sempre citando le tre fasi evolutive e l'attributo di validità. Mostra che sai che è un oggetto vivo nel tempo.
+> [!warning] ❌ Errore 2 — Trattare la BOM come oggetto statico
+> **Cosa sbaglio:** parlare di "_la_ distinta base" come se fosse un documento unico, immutabile, identico tra progettazione e produzione.
+> **Perché è sbagliato:** la BOM ha (a) un'**evoluzione** lungo l'ingegnerizzazione (progetto → produzione → ordinazione, ognuna con informazioni aggiuntive), e (b) una **storia temporale** governata dalla validità dei legami. Lo stesso prodotto può avere versioni diverse di BOM in tempi diversi. La BOM di progetto può essere tecnicamente perfetta ma non realizzabile con le macchine disponibili — per questo viene poi adattata in BOM di produzione.
+> **Come evitarlo:** all'orale, quando ti chiedono "cos'è la distinta base", parti sempre citando le tre fasi evolutive e l'attributo di validità. Mostra che sai che è un oggetto vivo nel tempo.
 
-> [!warning] ❌ Errore 3 — Dimenticare il lead time (la "trappola del cablaggio") **Cosa sbaglio:** assumere che l'ordine di approvvigionamento dei figli sia sempre coerente con l'ordine strutturale della BOM (più "in basso" nella struttura = prima da comprare). **Perché è sbagliato:** è il classico caso del quadro elettrico. La scheda elettronica strutturalmente è "in fondo" (livello alto), e _sembrerebbe_ il primo componente da approvvigionare. Ma il ciclo di assemblaggio reale la monta **per ultima** per non interferire con i cablaggi già installati. Se ordini la scheda in anticipo, occupa magazzino inutilmente; se la pianifichi senza correzione, hai un'incongruenza tra struttura BOM e ciclo reale. **Come evitarlo:** ricorda che il **lead time** sul legame è proprio il termine correttivo che sposta nel futuro il fabbisogno di un item per allinearlo al ciclo di assemblaggio. La BOM resta gerarchica e "strutturale", ma il lead time risolve il disallineamento temporale.
+> [!warning] ❌ Errore 3 — Dimenticare il lead time (la "trappola del cablaggio")
+> **Cosa sbaglio:** assumere che l'ordine di approvvigionamento dei figli sia sempre coerente con l'ordine strutturale della BOM (più "in basso" nella struttura = prima da comprare).
+> **Perché è sbagliato:** è il classico caso del quadro elettrico (schede montate in cassetti o rack). La scheda elettronica strutturalmente è "in fondo" (livello alto), e _sembrerebbe_ il primo componente da approvvigionare. Ma il ciclo di assemblaggio reale la monta **per ultima** per facilitare il cablaggio senza interferire con i componenti già montati. Se ordini la scheda in anticipo, occupa magazzino inutilmente; se la pianifichi senza correzione, hai un'incongruenza tra struttura BOM e ciclo reale.
+> **Come evitarlo:** ricorda che il **lead time** sul legame è proprio il termine correttivo che sposta nel futuro il fabbisogno di un item per allinearlo al ciclo di assemblaggio. La BOM resta gerarchica e "strutturale", ma il lead time risolve il disallineamento temporale.
 
 ---
 
@@ -256,19 +289,17 @@ Tutti i fabbisogni raddoppiano in modo proporzionale (la formula è lineare in $
 
 ### Prerequisiti (devo sapere prima)
 
-- [[Archivi tecnici]] — la BOM è uno dei due pilastri (insieme al ciclo di lavorazione)
+- Archivi tecnici (§4.2.1) — la BOM è uno dei due pilastri (insieme al ciclo di lavorazione); rispondono all'esigenza di *formalizzare* processi e prodotti: miglioramento del processo, formazione delle risorse umane, predisposizione dei materiali
 - [[Ingegnerizzazione]] — il processo che fa evolvere la BOM nelle sue tre forme
-- [[Codifica item]] — ogni nodo della BOM ha un codice univoco
-- [[Prodotti semplici vs complessi]] — la profondità della BOM definisce la complessità
+- [[Classificazione dei prodotti|Prodotti semplici vs complessi]] — la profondità della BOM definisce la complessità gestionale
 
 ### Dipendenze (ciò che si appoggia su questa nota)
 
-- [[Ciclo di lavorazione]] — affianca la BOM, descrive _come_ si trasforma ciò che la BOM elenca
-- [[Esplosione dei fabbisogni - MRP]] — applicazione operativa della formula vista in §5
-- [[Concurrent Engineering]] — fa convergere le tre BOM in un'unica
-- [[Make or Buy]] — decisione che si annota nella BOM di ordinazione
-- Diagramma quantitativo (bilancio di massa) — usa i dati di BOM per il bilancio
-- [[Coefficiente di scarto K1]] (vedi §3 nota su [[OEE]]) — collegamento col tasso di qualità
+- [[Ciclo di lavorazione]] — affianca la BOM, descrive _come_ si trasforma ciò che la BOM elenca (la BOM non dice nulla sulle operazioni)
+- Esplosione dei fabbisogni (MRP) — applicazione operativa della formula vista in §5
+- [[Make or buy]] — decisione che si annota nella BOM di ordinazione
+- [[Bilancio di massa]] — il diagramma quantitativo usa i dati di BOM
+- [[Numero di risorse|Coefficiente di scarto K1]] (cfr. anche [[OEE]]) — la cascata degli scarti del §5.2 è la stessa logica del $c_{scarto}$, vista lato dimensionamento
 
 ### Concetti correlati
 
@@ -286,4 +317,5 @@ Tutti i fabbisogni raddoppiano in modo proporzionale (la formula è lineare in $
 
 ---
 
-> [!note] Posizionamento nel sistema Questa nota fa parte degli **archivi tecnici** (Cap4), insieme a [[Ciclo di lavorazione]] e [[Foglio di lavorazione]]. La BOM è il documento "statico-strutturale" del prodotto; il ciclo è il documento "dinamico-procedurale" del processo. Insieme descrivono il sistema produttivo dal punto di vista informativo, e alimentano la pianificazione (Cap1) e il dimensionamento dei magazzini (Cap6-7).
+> [!note] Posizionamento nel sistema
+> Questa nota fa parte degli **archivi tecnici** (§4.2.1), insieme a [[Ciclo di lavorazione]] e [[Foglio di lavorazione]]. La BOM è il documento "statico-strutturale" del prodotto; il ciclo è il documento "dinamico-procedurale" del processo. Insieme descrivono il sistema produttivo dal punto di vista informativo, e alimentano la pianificazione (Cap1) e il dimensionamento dei magazzini (Cap6).

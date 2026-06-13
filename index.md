@@ -25,7 +25,6 @@ Navigazione d'insieme → [[00 Impianti - MOC]] · sintesi maestra → [[_Knowle
 - 🟢 [[VRP - Variety Reduction Program]] — 4 azioni di riduzione varietà
 - 🟢 [[Ciclo di vita del prodotto]] · 🟢 [[ciclo di vita tecnologia]] — PLC e curva a S
 - 🟢 [[Time To Market]] — tempo idea→mercato
-- 🟢 [[Postponement e Commonality]] — rinvio del "battesimo" del prodotto
 - 🟢 [[Mass customization]] — prodotto configurato per il cliente su linea di massa
 - 🟢 [[Servitization]] — si compra il servizio, non il possesso del bene
 - 🟢 [[Leve competitive]] · 🟢 [[Contesto Competitivo]] · 🟢 [[Mercato e valore]] — contesto e leve
@@ -35,6 +34,7 @@ Navigazione d'insieme → [[00 Impianti - MOC]] · sintesi maestra → [[_Knowle
 - 🟢 [[Classificazione dei prodotti]] — aggregazione / complessità / modularità
 - 🟢 [[CODP - Customer Order Decoupling Point]] — spartiacque previsione/ordine (MTS…ETO)
 - 🟢 [[Delivery Lead Time]] — tempo concesso dal cliente vs lead time interno
+- 🟢 [[Postponement e Commonality]] — rinvio del "battesimo": 3ª leva di riduzione del delivery LT (§2.1.2)
 - 🟢 [[SKU - Stock Keeping Unit]] — unità minima di classificazione
 - 🟢 [[Classificazione per processi tecnologici]] — per processo vs per parti
 - 🟢 [[Job shop]] · 🟢 [[Group technology]] · 🟢 [[Flow shop]] — soluzioni impiantistiche
@@ -64,6 +64,7 @@ Navigazione d'insieme → [[00 Impianti - MOC]] · sintesi maestra → [[_Knowle
 - 🟢 [[Distinta base (BOM)]] — esplosione/implosione, dati di legame
 - 🟢 [[Analisi ABC (Pareto 80-20)]] — fasce A/B/C su famiglie o giacenze
 - 🟢 [[ingegnerizzazione]] — raccordo prodotto↔processo, costo della complessità
+- 🟢 [[Elementi di progettazione]] — hub §4.1: definizione, 5 sotto-progetti, articolazione, trade-off costi
 - 🟢 [[Occasioni di progettazione]] — ex-novo vs riprogettazione (conversione…ampliamento)
 - 🟢 [[Make or buy]] — unificate/catalogo/normazione aziendale, 4° passo ingegnerizzazione
 - 🟢 [[Ciclo di lavorazione]] — sequenza operazioni, foglio di lavoro
@@ -80,6 +81,9 @@ Navigazione d'insieme → [[00 Impianti - MOC]] · sintesi maestra → [[_Knowle
 - 🟢 [[Collo di bottiglia]] — Pb = potenzialità minima; non = meno macchine né tempo max
 
 ## Cap6 — Layout
+- 🟢 [[Layout a posizione fissa]] — il prodotto sta fermo, le risorse vanno a lui (cantieri, prototipi)
+- 🟢 [[Layout per processo]] — reparti per affinità tecnologica ≡ job shop; flessibile ma flussi complessi
+- 🟢 [[Layout per prodotto]] — macchine in linea sul ciclo ≡ flow shop; serie/parallelo/misto, rettilineo/U/zig-zag
 - 🟢 [[Layout a celle]] — linea applicata a famiglie, layout ibrido
 - 🟢 [[Analisi CVP]] — confronto processo vs prodotto, volume critico q*
 - 🟢 [[Diagramma di Buff]] — relationship chart A-E-I-O-U-X, combinabilità processi

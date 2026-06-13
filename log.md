@@ -77,3 +77,60 @@ RISULTATO: link rotti da ~270 → 4 candidati reali (+ falsi positivi in code-bl
   progettazione / Studio di fattibilità / Make or buy).
 - Index aggiornato: nuove voci Cap1/Cap3/Cap4, rimossi i riferimenti a Untitled/Esempio,
   sezione "Note di lavoro" → "fonti grezze".
+
+## [2026-06-12] ingest | Elementi di progettazione (§4.1)
+- Riempita la pagina vuota `Elementi di progettazione.md` dal PDF `Impianti_2026 - 04`
+  (pp.3-7): §4.1 definizione (composizione mezzi, scatola nera, funzione immanente),
+  §4.1.1 occasioni (ex-novo/conversione/riconversione/ammodernamento/ampliamento
+  orizz.-vert./sicurezza + marginalità), §4.1.2 le 5 dimensioni/sotto-progetti
+  (finanziario, prodotto, processo, architettonico, commerciale; ciclo iterativo),
+  §4.1.3 articolazione (studio di fattibilità 11 fasi + massima/definitivo/esecutivo +
+  trade-off investimento↔produzione, Fig.1).
+- Impostata come pagina-HUB §4.1: linka [[Occasioni di progettazione]] e
+  [[Studio di fattibilità]] (già esistenti) invece di duplicarne il contenuto.
+- Index aggiornato (nuova voce sotto Cap4).
+
+## [2026-06-12] lint | Revisione Distinta base (BOM) vs PDF Cap4 §4.2.1
+- Integrato dal PDF: n. livelli a scelta dell'azienda; simbologia natura item; scarto di processo vs sfridi tecnologici (doppia motivazione del c_imp netto); doppia utilità della validità; usi gestionali della DB; usi completi di esplosione/implosione; cenno a "provenienza"; esempio Figura 3 (parte a → 40 in riepilogata).
+- Formattazione: callout §7 e finale portati a sintassi multilinea Obsidian.
+- Link: rimossi self-link via alias (Archivi tecnici, Codifica item, MRP, Concurrent Engineering); [[Make or Buy]]→[[Make or buy]]; linkati [[Bilancio di massa]], [[Classificazione dei prodotti]], [[Numero di risorse|K1]]; corretto "Cap6-7"→Cap6.
+
+## [2026-06-12] lint | Riscrittura pagina indice Cap5 (v1 → v2)
+- La pagina `05 Cap5` era rimasta alla v1: notazione vecchia (N_j=⌈Q/P⌉), formula (8) errata (1−ΣTPi/(M·TCL)), Elmaghraby assente, **WIP/Little/Vladzyevsky/curve logistiche mancanti**, sezione "bilanciamento multiprodotto" inesistente nel PDF 2026.
+- Riscritta seguendo la numerazione PDF: §5.2 numero risorse (η=K1–K4, M′ij/Mj/uj/U, dente di sega) · §5.3.1 bilanciamento monoprodotto (Salveson + Elmaghraby) · §5.3.2–5.3.3 Vladzyevsky · §5.3.4 WIP, Little, curve.
+- Confermato all'utente: il **multiprodotto non è nel programma 2026** (solo linea monoprodotto); Kilbridge-Wester/Hoffmann/COMSOAL rimossi anche come menzioni barrate.
+- Le pagine concetto (Numero di risorse, Bilanciamento delle linee, Little/WIP, Vladzyevsky, Curve, Collo di bottiglia) erano già v2 e coprono i vecchi wikilink tramite aliases — nessun link rotto.
+
+## [2026-06-12] lint | Riscrittura pagina indice Cap2 (v1 → v2)
+- Numerazione corretta sui PDF 2026: la pagina usava 2.0/2.1.1=CODP; ora §2.1.1 prodotti · §2.1.2 CODP · §2.1.3 processi+soluzioni impiantistiche · §2.1.4 lavoro · §2.1.5 volumi · §2.2 Matrice P-P.
+- Matrice P-P spostata dalla sottosezione "layout logico" (terminologia non del PDF) alla sua sezione §2.2 di sintesi.
+- De-duplicati i link verso alias della stessa pagina (Produzione di processo/parti/Reversibilità → Classificazione per processi tecnologici; Specializzazione manodopera/Job enrichment/rotation → Ritmi di avanzamento; Leve di riduzione → CODP).
+- Aggiunti: indice di programmazione, postponement come 3ª leva, congruenze §2.1.5 (cemento/cantieri/auto/tessile + incongruenza ETO∧processo∧continua), trappole carta e celle vs isole, "volumi = unico profilo discrezionale".
+- Nuovo candidato: [[Modalità di realizzazione dei volumi]] (pagina da creare).
+- index.md: [[Postponement e Commonality]] spostato da Cap1 a Cap2 (il PDF 2026 lo formalizza in §2.1.2).
+
+## [2026-06-12] lint | Riscrittura pagine indice Cap3 e Cap4 (v1 → v2)
+- **Cap3**: numerazione corretta sui PDF (la pagina inventava 3.1–3.5; ora §3.1, 3.1.1, 3.1.2, 3.2.1–3.2.5). Aggiunti: livello di servizio e flessibilità/versatilità come sezioni proprie, IF con valori di riferimento, trappola doppio simbolo TA/TS, incertezza sulle rilavorazioni (Ep*·Q*=Ep·Q → OEE invariato), esempi nylon/Gragnano, sezione ⚠️ Affidabilità assente dal PDF 2026 (con MTBF/MTTR mantenuti per Ap). Link normalizzati sugli alias reali (Potenzialità produttiva, CP, indice di flusso via Tempo di attraversamento, Livello di servizio via qualità e servizio).
+- **Cap4**: numerazione corretta (la pagina usava 4.1–4.5; ora §4.1.1–4.1.3, §4.2.1–4.2.2, §4.3: bilancio di massa rientra in §4.2.2, ingegnerizzazione è §4.3). Aggiunte le sezioni mancanti §4.1.2 (5 sotto-progetti) e §4.1.3 (studio di fattibilità 11 fasi + massima/definitivo/esecutivo + trade-off); linkati [[Processo produttivo]] e [[Studio di fattibilità]] (esistevano ma non erano nella pagina). De-linkato [[Perdite e rifiuti]] (contenuto in Bilancio di massa); compattati i link che risolvevano via alias (coefficienti DB, concurrent engineering, foglio di lavoro, parti unificate/catalogo/normazione).
+- Punti chiave estesi con le domande ricorrenti di `domande_impianti` (8 voci in uscita, ABC ×4, occasioni, articolazione).
+
+## [2026-06-12] lint | Riscrittura pagine indice Cap1 e Cap6 (v1 → v2)
+- **Cap1**: numerazione corretta sui PDF (la pagina usava 1.1–1.4 con Ubicazione infilata nel "contesto"; ora §1.1, §1.2 con 1.2.1–1.2.2, §1.3 con 1.3.1–1.3.2). Aggiunti: VRP con le 4 azioni, PLC a 5 fasi (⚠️ con "Sviluppo") + ciclo fisico + ciclo del processo, metodo del punteggio §1.3.2 (alias di Ubicazione impianto), Rolling planning e Servitization linkati. [[Valore]]/[[Mercato]] → [[Mercato e valore]].
+- **Cap6**: la pagina copriva solo metà capitolo (tipologie, CVP, flussi, aree). Aggiunte le sezioni mancanti: §6.1 impostazione, §6.3.1 **Buff + combinabilità** (domande ×3), §6.3.2 postazioni, §6.4 **material handling** (UdC, mezzi), §6.5 **magazzini** (6 indici ×4 in domande, tipologie, progettazione col rischio, allocazione), §6.6 espansione/piano regolatore. ⚠️ Corretto CVP: **4 zone**, non 3 (trappola n.18). Rimosso il collegamento →Cap7 (fuori programma 2026).
+- Pulizia alias: la pagina Cap6 fungeva da alias-contenitore per concetti con pagina propria → frontmatter ridotto agli alias di capitolo; "Layout a postazioni fisse" spostato su [[Layout a posizione fissa]] (+ frontmatter creato), "Sistemi di movimentazione"/"Unità di carico (UdC)" su [[Material handling]], "Layout per processo vs per prodotto" resta su [[Analisi CVP]].
+- Nuovo candidato: [[Layout per prodotto]] (linkato da Flow shop, Layout a celle, Ritmi di avanzamento; coprirà anche varianti serie/parallelo/misto e geometrie).
+
+## [2026-06-12] lint | Riscrittura Layout per processo e Layout per prodotto
+- Le due pagine erano dump grezzi del PDF Cap6 (refusi "ciascunamacchina", marcatori "Figura 2", "4/37"; quella per processo troncata ai soli vantaggi). Riscritte come pagine concetto: frontmatter con alias ("Layout a reparti"/"Configurazione per processo"; "Layout in linea"/"Configurazione per prodotto"), definizione, vantaggi/svantaggi, trappole, collegamenti (← / →).
+- **Layout per processo** (§6.2.2): integrati gli svantaggi mancanti dall'equivalenza col [[Job shop]] (flussi complessi, ↓saturazione, ↑TA, ↑WIP); trappola nuova: "per processo" (layout ≡ reparti) ≠ "produzione per processo" (Cap2, ciclo obbligato → linea) — quasi antonimi; doppia faccia della bassa saturazione.
+- **Layout per prodotto** (§6.2.3): strutturate le varianti serie (parcellizzazione) / parallelo (stazione) / misto e le geometrie rettilineo / U / zig-zag (tabella: posizione MP-PF distingue U da zig-zag); mini-esempio numerico sul parallelo (TCL 2', fase 6' → 3 macchine, link a [[Numero di risorse]]); trappole su parallelo vs serie e CVP a 4 zone.
+- index.md: aggiunte al Cap6 le tre tipologie mancanti (posizione fissa, processo, prodotto).
+
+## [2026-06-13] lint | Riscrittura Analisi CVP (era una risposta di chat, non la pagina concetto)
+La pagina conteneva una risposta Q&A sul confronto robot/operatore (matematica corretta,
+q* ≈ 111.000 pz/anno verificato) ma nulla del contenuto canonico §6.2.5 che 10 pagine
+linkano: 4 zone, 2 BEP, retta dei ricavi, q*. Affermava inoltre "il prezzo non entra mai
+nel conto" — vero per q* (intersezione dei costi) ma fuorviante per l'analisi CVP completa,
+che usa R = p·q per definire le zone. Riscritta come pagina concetto da PDF Cap6 pp. 6–7;
+esempio robot/operatore conservato come analogia. Nota: il PDF dice "tre zone" ma ne
+descrive quattro → mantenuta la forma a 4 zone del KG v2.

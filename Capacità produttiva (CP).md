@@ -1,8 +1,9 @@
 ---
 aliases:
-  - "Capacità Produttiva"
-  - "Capacità produttiva"
-  - "Capacità produttiva teorica vs reale"
+  - Capacità Produttiva
+  - Capacità produttiva
+  - Capacità produttiva teorica vs reale
+  - CP
 ---
 
 ---

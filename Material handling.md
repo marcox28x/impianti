@@ -1,3 +1,9 @@
+---
+aliases:
+  - "Sistemi di movimentazione"
+  - "Movimentazione interna"
+  - "Unità di carico (UdC)"
+---
 # Material handling
 
 > [!summary] In 10 secondi
